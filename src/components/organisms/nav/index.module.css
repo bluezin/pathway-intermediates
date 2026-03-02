@@ -1,0 +1,98 @@
+.nav {
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 4%;
+  margin-top: 30px;
+  width: 90%;
+  box-sizing: content-box;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 0;
+}
+
+.dropdown__title {
+  padding: 16px;
+  margin: 0;
+  display: block;
+  color: #fff;
+}
+
+.dropdown__options {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border-radius: 0 15px 15px 15px;
+  width: 200px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0 10px;
+  left: 15px;
+}
+
+.dropdown__options a {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  text-align: left;
+  padding: 15px 15px;
+  margin-bottom: 1px;
+  transition: all 0.5s;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown__options a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-bottom: 20px;
+  padding: 0;
+}
+
+/* About */
+.about .dropdown__title:hover {
+  color: skyblue;
+  transition: all 0.5s
+}
+
+.about:hover .about__options {
+  display: block;
+}
+
+/* Sepecies */
+.species .dropdown__title:hover {
+  color: skyblue;
+  transition: all 0.5s
+}
+
+.species:hover .species__options {
+  display: block;
+}
+
+/* productList */
+.productList .dropdown__title:hover {
+  color: skyblue;
+  transition: all 0.5s
+}
+
+.productList:hover .productList__options {
+  display: block;
+}
+
+/* contactUs */
+.contactUs .dropdown__title:hover {
+  color: skyblue !important;
+  transition: all 0.5s
+}
