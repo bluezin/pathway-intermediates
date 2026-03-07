@@ -1,0 +1,47 @@
+.container__options {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 9px 9px;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.container__options button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  font-size: 17px;
+  text-align: left;
+}
+
+.container__options button:hover {
+  background-color: rgb(92, 160, 183);
+  color: #fff;
+}
+
+.input {
+  height: 30px;
+  width: 100%;
+  border: 1px solid rgb(92, 160, 183);
+  background-color: rgb(33, 125, 157);
+  color: #fff;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.messageError {
+  color: #fff;
+  display: block;
+  margin: 8px 0px 0px 6px;
+}

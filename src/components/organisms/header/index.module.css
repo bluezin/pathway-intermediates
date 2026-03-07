@@ -5,7 +5,7 @@
 .banner {
   border-radius: 0 0 200px 0;
   width: 100%;
-  height: 500px;
+  height: 400px;
   box-sizing: content-box;
   position: relative;
 }
@@ -50,7 +50,7 @@
 
 .hero__main h1 {
   font-size: 50px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-family: "GillSansLight Bold";
 }
 
@@ -63,4 +63,10 @@
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero__no__main {
+    top: 43%;
+  }
 }

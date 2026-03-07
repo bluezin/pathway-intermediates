@@ -1,0 +1,114 @@
+.container__inputs {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  width: 590px;
+  margin-bottom: 5px;
+}
+
+.container__textarea {
+  width: 590px;
+}
+
+.button {
+  background-color: #007eaa;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  border: 1px solid rgb(0, 81, 109);
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1140px) {
+  .container__inputs {
+    width: 470px;
+    gap: 20px;
+  }
+
+  .container__textarea {
+    width: 470px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .container__form {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #006a8f;
+    padding: 40px 0px;
+    z-index: 100;
+    overflow-y: auto;
+    padding-bottom: 30px;
+  }
+
+  .container__form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background: url("/p_opa.webp") center center no-repeat;
+  }
+
+
+  .container__inputs {
+    grid-template-columns: auto;
+    margin: auto;
+    width: 90%;
+  }
+
+  .container__textarea {
+    width: 90%;
+  }
+
+  .form__nav {
+    display: flex !important;
+    width: 90%;
+    margin: auto auto 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .close__btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .close__btn span {
+    background: #fff;
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    font-size: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .close__btn>span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .close__btn>span:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+
+  .open__form {
+    display: block;
+  }
+}
+

@@ -32,3 +32,22 @@
   margin-bottom: 50px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding-top: 90px;
+  }
+
+  .container h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    flex-direction: column;
+    gap: 23px;
+    padding: 40px;
+  }
+}

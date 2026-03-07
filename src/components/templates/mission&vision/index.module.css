@@ -19,10 +19,28 @@
   margin: auto;
 }
 
-.content {
+.first__content {
   margin-bottom: 80px;
 }
 
 .description {
   font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .divider {
+    margin: 15px 0px 15px;
+  }
+}
+

@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 const MissionAndVisionTemplate = () => {
   return (
     <section className={styles.container}>
-      <div className={styles.content}>
+      <div className={`${styles.first__content} ${styles.content}`}>
         <h2 className={styles.title}>Our Vision</h2>
         <p className={styles.divider}></p>
         <p className={styles.description}>

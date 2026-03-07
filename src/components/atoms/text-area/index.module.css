@@ -1,0 +1,25 @@
+.input:focus {
+  border: 1px solid #fff;
+}
+
+.input {
+  height: 70px;
+  width: 100%;
+  border: 1px solid rgb(92, 160, 183);
+  background-color: rgb(33, 125, 157);
+  color: #fff;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.messageError {
+  color: #fff;
+  display: block;
+  margin: 8px 0px 0px 6px;
+}

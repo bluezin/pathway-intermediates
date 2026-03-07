@@ -8,55 +8,55 @@ const EmployeeTemplate = () => {
       name: "Eric Kwon",
       jobTitle: "CEO",
       id: "1",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Chansol Park",
       jobTitle: "Product Manager",
       id: "2",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Dave Ahn",
       jobTitle: "Administrative Manager",
       id: "3",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Jason Quick",
       jobTitle: "National Poultry Account Manager",
       id: "4",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Brad Bunnett",
       jobTitle: "National Ruminant Account Manager",
       id: "5",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Jeff Harding",
       jobTitle: "Ruminant Account Manager",
       id: "6",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Leasea Butler",
       jobTitle: "Poultry Technical Manager",
       id: "7",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Edwin Na",
       jobTitle: "Product Manger",
       id: "8",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
     {
       name: "Yolemni Jimenez",
       jobTitle: "Regional Manager for Latin America",
       id: "9",
-      image: "/employees/employee.png",
+      image: "/employees/employee.jpg",
     },
   ];
 
@@ -67,7 +67,9 @@ const EmployeeTemplate = () => {
       <div className={styles.content}>
         {employees.map((item) => (
           <div key={item.id} className={styles.content__item}>
-            <img src={item.image} alt={item.name} />
+            <div className={styles.content__item__containerImg}>
+              <img src={item.image} alt={item.name} />
+            </div>
             <p className={styles.name}>{item.name}</p>
             <p className={styles.divider}></p>
             <p>{item.jobTitle}</p>

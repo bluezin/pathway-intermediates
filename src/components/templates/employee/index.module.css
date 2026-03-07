@@ -40,3 +40,68 @@
   height: 320px !important;
   border-radius: 20px 20px 0px 0px;
 }
+
+@media screen and (max-width: 900px) {
+  .content {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+  }
+
+  .container h2 {
+    font-size: 25px;
+  }
+
+  .content {
+    margin-top: 30px;
+    text-align: center;
+    gap: 40px 20px;
+  }
+
+  .divider {
+    margin: 10px auto;
+    width: 60px;
+  }
+
+  .name {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .container {
+    width: 90%;
+    min-width: 0;
+  }
+}
+
+
+@media screen and (max-width: 560px) {
+  .content__item img {
+    width: 160px !important;
+    height: 200px !important;
+  }
+
+  .content__item {
+    width: 160px
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content__item img {
+    width: 100% !important;
+    height: 280px !important;
+  }
+
+  .content__item {
+    width: 100%
+  }
+
+  .content {
+    grid-template-columns: auto;
+  }
+}

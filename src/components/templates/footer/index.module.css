@@ -1,0 +1,43 @@
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  margin: 0px 4%;
+}
+
+.container__image {
+  width: 120px;
+  height: 50px;
+  position: relative;
+}
+
+.container__image img {
+  width: 120px !important;
+  height: 50px !important;
+}
+
+.content {
+  color: #888;
+  font-size: 14px;
+  text-align: right;
+  font-weight: 300;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    display: block;
+    padding: 35px 0;
+    margin: auto;
+    width: 90%;
+  }
+
+  .container__image {
+    margin: auto auto 24px;
+  }
+
+  .content {
+    text-align: center;
+  }
+}

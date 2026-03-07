@@ -5,11 +5,43 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 17px;
   margin-left: 4%;
   margin-top: 30px;
   width: 90%;
   box-sizing: content-box;
+}
+
+.menu__social {
+  display: none;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.menu__social ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu__social li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.menu__social img {
+  width: 30px;
+  height: 30px;
+}
+
+.divider {
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 40px;
 }
 
 .menu {
@@ -22,20 +54,23 @@
 .dropdown__title {
   padding: 16px;
   margin: 0;
-  display: block;
+  display: inline-block;
   color: #fff;
+  cursor: pointer;
 }
 
 .dropdown__options {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
+  list-style: none;
   border-radius: 0 15px 15px 15px;
   width: 200px;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 0 10px;
   left: 15px;
+  z-index: 2;
 }
 
 .dropdown__options a {
@@ -54,45 +89,181 @@
 }
 
 .dropdown {
-  cursor: pointer;
   list-style: none;
   position: relative;
   padding-bottom: 20px;
   padding: 0;
 }
 
-/* About */
-.about .dropdown__title:hover {
-  color: skyblue;
-  transition: all 0.5s
-}
-
-.about:hover .about__options {
-  display: block;
-}
-
-/* Sepecies */
 .species .dropdown__title:hover {
   color: skyblue;
   transition: all 0.5s
 }
 
-.species:hover .species__options {
-  display: block;
-}
-
-/* productList */
 .productList .dropdown__title:hover {
   color: skyblue;
   transition: all 0.5s
 }
 
-.productList:hover .productList__options {
-  display: block;
+.about .dropdown__title:hover {
+  color: skyblue;
+  transition: all 0.5s
 }
+
 
 /* contactUs */
 .contactUs .dropdown__title:hover {
   color: skyblue !important;
   transition: all 0.5s
+}
+
+.link__logo {
+  z-index: 20;
+}
+
+.open__menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  padding: 0;
+  z-index: 20;
+  position: relative;
+  margin: 0;
+}
+
+.open__menu svg {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+  .menu {
+    gap: 15px;
+  }
+
+  .dropdown__options {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 841px) {
+  /* About */
+  .about:hover .about__options {
+    display: block;
+  }
+
+  /* Sepecies */
+  .species:hover .species__options {
+    display: block;
+  }
+
+  /* productList */
+  .productList:hover .productList__options {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .menu {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.95);
+    bottom: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    align-items: self-start;
+    left: 0;
+    z-index: 15;
+    gap: 40px;
+    padding: 120px 0px 0px 30px;
+  }
+
+  .menu__social {
+    display: block;
+  }
+
+  .dropdown {
+    width: 90%;
+  }
+
+  .dropdown__title {
+    padding: 0;
+  }
+
+  .dropdown__options a:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .dropdown__options__active {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0 0;
+    flex-direction: column;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .dropdown__options__active a {
+    border: none;
+    color: #999;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .nav {
+    font-size: 23px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .sub__nav {
+    position: fixed;
+    width: 100%;
+    padding: 30px 5% 10px 4%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 20;
+  }
+
+  .sub__nav__scroll {
+    background-color: #000;
+    opacity: 0.6;
+  }
+
+  .open__menu {
+    display: flex;
+  }
+
+  .menu__active {
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .link__logo img {
+    width: 220px;
+    height: 50px;
+  }
+
+  .open__menu {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
 }
