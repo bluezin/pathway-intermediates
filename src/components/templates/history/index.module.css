@@ -23,7 +23,7 @@
 .container {
   padding-top: 140px;
   width: 70%;
-  margin: auto;
+  margin: auto auto 130px;
 }
 
 .container h2 {

@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: content-box;
+  color: #fff;
+  position: relative;
+}
+
+.content p {
+  font-size: 35px;
+  z-index: 4;
+}
+
+.content strong {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: block;
+  z-index: 4;
+}
+
+.content a {
+  z-index: 4;
+}
+
+.productList {
+  background: url("/fruits.webp") center center no-repeat;
+}
+
+.history {
+  background: url("/banners/banner-history.png") center center no-repeat;
+}
+
+.species {
+  background: url("/banners/banner-species.webp") center center no-repeat;
+}
+
+.banner {
+  background-size: 100% 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.banner::before {
+  background-color: rgba(0,0,0,0.40);
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.productList::before {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1120px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    width: 60%;
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    flex-wrap: wrap;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .content {
+    width: 100%;
+    margin: 0;
+  }
+}

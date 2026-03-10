@@ -33,9 +33,9 @@ const Header = ({
           </p>
 
           <div className={styles.hero__main__buttons}>
-            <button className={`button-primary`}>Go to Pathway</button>
+            <button className={`button-primary ${styles.button}`}>Go to Pathway</button>
             <span>or</span>
-            <button className={`button-secondary`}>Go to Biometrix</button>
+            <button className={`button-secondary ${styles.button}`}>Go to Biometrix</button>
           </div>
         </div>
       )}

@@ -5,7 +5,7 @@
 .banner {
   border-radius: 0 0 200px 0;
   width: 100%;
-  height: 400px;
+  height: 420px;
   box-sizing: content-box;
   position: relative;
 }
@@ -14,7 +14,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.40); /* Ajusta el 0.40 */
+  background: rgba(0, 0, 0, 0.45); /* Ajusta el 0.45 */
   border-radius: 0 0 200px 0;
 }
 
@@ -68,5 +68,69 @@
 @media screen and (max-width: 768px) {
   .hero__no__main {
     top: 43%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero__main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero__main {
+    top: 40%;
+  }
+
+  .hero__main h1 {
+    font-size: 40px;
+    margin-bottom: 14px;
+  }
+
+  .hero__main p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hero__main {
+    top: 35%;
+    width: 90%;
+  }
+
+  .hero__main h1 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+
+  .hero__main p {
+    font-size: 18px;
+  }
+
+  .button {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero__main__buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero__main__buttons span {
+    display: none;
+  }
+
+  .hero__main {
+    top: 28%;
+  }
+
+  .banner {
+    height: 440px;
+  }
+
+  .hero__main p {
+    margin-bottom: 17px;
   }
 }

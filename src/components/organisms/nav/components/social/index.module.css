@@ -1,0 +1,38 @@
+
+.menu__social {
+  display: none;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.menu__social ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu__social li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+
+.menu__social img {
+  width: 30px;
+  height: 30px;
+}
+
+.divider {
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 840px) {
+  .menu__social {
+    display: block;
+  }
+}

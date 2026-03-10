@@ -1,4 +1,5 @@
 import Header from "@/components/organisms/header";
+import HomeTempalte from "@/components/templates/home";
 import Head from "next/head";
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header banner="/banners/banner-main.png" bannerMain />
+      <Header banner="/banners/banner-main.webp" bannerMain />
+      <HomeTempalte />
     </>
   );
 }
