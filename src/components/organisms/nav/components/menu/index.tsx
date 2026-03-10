@@ -44,17 +44,17 @@ const Menu = ({
         },
         {
           title: "Poultry",
-          link: "#",
+          link: "/species/poultry",
           id: "2",
         },
         {
           title: "Ruminant",
-          link: "#",
+          link: "/species/ruminant",
           id: "3",
         },
         {
           title: "Aquaculture",
-          link: "#",
+          link: "/species/aquaculture",
           id: "4",
         },
       ],

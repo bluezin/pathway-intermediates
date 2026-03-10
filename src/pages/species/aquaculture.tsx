@@ -1,7 +1,7 @@
 import Header from "@/components/organisms/header";
 import Species from "@/components/templates/species";
 
-const Swine = () => {
+const Aquaculture = () => {
   const data = {
     betterDigestion: [
       {
@@ -28,39 +28,11 @@ const Swine = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/species/products/proBe.webp",
-        link: "/endopower",
-        id: "1",
-        description:
-          "ProBe-Bac is a mixture of bacteriophages precisely selected against specific poultry or swine disease. It effectively controls various diseases that are prevalent in poultry or swine industry.",
-      },
-      {
-        imgForTitle: "/species/products/growmax.webp",
-        link: "/endopower",
-        id: "1",
-        description:
-          "GrowMax is the organic chromium picolinate product for animal performance. It improves the reproductive performance and reduces stress in animals.",
-      },
-      {
-        imgForTitle: "/species/products/boar.webp",
-        link: "/endopower",
-        id: "1",
-        description:
-          "Boar Power Max is cookie-type nutritional balanced supplement for boar performance. It contains L-Carnitine and Cr-picolinate to enhance boar performance.",
-      },
-      {
         imgForTitle: "/species/products/fermiko.webp",
         link: "/endopower",
         id: "1",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
-      },
-      {
-        imgForTitle: "/species/products/thermo.webp",
-        link: "/endopower",
-        id: "1",
-        description:
-          "ThermoRex is an all-in-one anti-stress solution developed by Pathway Intermediates that supports food-producing animals to overcome stress.",
       },
     ],
     improvingGut: [
@@ -71,23 +43,16 @@ const Swine = () => {
         description:
           "YeaMune-UP is an one-of-a-kind immune accelerator produced with <span class='italic'>S.c. boulardii.</span> It is a highly effective immune accelerator rich in β-glucan, mannan-oligosaccharides (MOS) and abundant nutrients.",
       },
-      {
-        imgForTitle: "/species/products/genikan.webp",
-        link: "/endopower",
-        id: "1",
-        description:
-          "Genikan is high-quality yeast culture for gastrointestinal health. It is new generation of Yeasture, which has been produced and supplied for more than 17 years.",
-      },
     ],
   };
 
   return (
     <>
-      <Header banner="/banners/species/swine.webp" title="Swine" />
+      <Header banner="/banners/species/aquaculture.webp" title="Aquaculture" />
 
       <Species data={data} />
     </>
   );
 };
 
-export default Swine;
+export default Aquaculture;
