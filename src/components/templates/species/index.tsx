@@ -2,7 +2,7 @@ import { Specie } from "@/components/types/species";
 import Card from "./components/card";
 import styles from "./index.module.css";
 
-const Species = ({
+const SpeciesTemplate = ({
   data,
 }: {
   data: {
@@ -38,4 +38,4 @@ const Species = ({
   );
 };
 
-export default Species;
+export default SpeciesTemplate;
