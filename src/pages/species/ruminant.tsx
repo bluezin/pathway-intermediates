@@ -1,5 +1,5 @@
 import Header from "@/components/organisms/header";
-import SpeciesOption from "@/components/templates/species/components/speciesOption";
+import SpeciesOption from "@/components/templates/species/components/species-option";
 
 const Ruminant = () => {
   const data = {
