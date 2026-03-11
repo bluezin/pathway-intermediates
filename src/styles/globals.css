@@ -24,6 +24,13 @@
   src: url('/fonts/gill-sans-medium.ot') format('opentype');
 }
 
+@font-face {
+  font-family: "GillSansLight SemiBold";
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/gill-sans-semi-bold.ttf') format('opentype');
+}
+
 body {
   font-family: "GillSansLight Regular", Arial, sans-serif;
   letter-spacing: 0 !important;
@@ -46,6 +53,10 @@ a {
 
 button {
   font-family: "GillSansLight Regular", sans-serif;
+}
+
+.size-14 {
+  font-size: 14px;
 }
 
 .button-primary {

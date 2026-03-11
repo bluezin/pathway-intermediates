@@ -8,21 +8,21 @@ export const navMenu = () => {
       fill="none"
       stroke="#ffffff"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+      <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
 
       <g id="SVGRepo_iconCarrier">
         <path
           d="M4 6H20M4 12H20M4 18H20"
           stroke="#fff"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
     </svg>
@@ -39,12 +39,12 @@ export const navClose = () => {
       fill="none"
       stroke="#ffffff"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+      <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
 
       <g id="SVGRepo_iconCarrier">
