@@ -19,7 +19,7 @@ const Relations = () => {
           <strong>
             Browse our product range and find the right solution for your needs.
           </strong>
-          <Link href={"/product-list"} className={`button-secondary`}>
+          <Link href={"/products"} className={`button-secondary`}>
             PRODUCT LIST
           </Link>
         </div>

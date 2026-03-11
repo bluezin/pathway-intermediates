@@ -1,5 +1,5 @@
 import Header from "@/components/organisms/header";
-import SpeciesTemplate from "@/components/templates/species";
+import SpeciesOption from "@/components/templates/species/components/speciesOption";
 
 const Swine = () => {
   const data = {
@@ -85,7 +85,7 @@ const Swine = () => {
     <>
       <Header banner="/banners/species/swine.webp" title="Swine" />
 
-      <SpeciesTemplate data={data} />
+      <SpeciesOption data={data} />
     </>
   );
 };
