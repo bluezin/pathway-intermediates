@@ -1,10 +1,13 @@
 import Header from "@/components/organisms/header";
-import ProductOptions from "@/components/templates/products/components/product-option";
+import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Genikan = () => {
   return (
     <>
-      <Header banner="/banners/products/grains.webp" title="Gut Health Enhancers" />
+      <Header
+        banner="/banners/products/grains.webp"
+        title="Gut Health Enhancers"
+      />
 
       <ProductOptions
         item={{
@@ -27,7 +30,8 @@ const Genikan = () => {
             },
             {
               id: "3",
-              title: "Valuable fermentation metabolites from Genikan<sup class='size-14'>®</sup>",
+              title:
+                "Valuable fermentation metabolites from Genikan<sup class='size-14'>®</sup>",
               description:
                 "Genikan contains plenty of organic acids, vitamins, amino acids, enzymes, etc. these nutritional components are preserved through low temperature drying system and deliver beneficial effects when supplemented to animal. High quality nutritious metabolites can function as Antimicrobial, Prebiotic, and Antioxidant substances, resulting in the healthy gut and animal by protecting them from pathogens and stress conditions. This can contribute to the improvement of animal performance.",
             },

@@ -9,7 +9,7 @@ interface Content {
   id: string;
 }
 
-const ProductOptions = ({
+const ProductsOption = ({
   item,
 }: {
   item: {
@@ -76,4 +76,4 @@ const ProductOptions = ({
   );
 };
 
-export default ProductOptions;
+export default ProductsOption;

@@ -6,21 +6,21 @@ const Poultry = () => {
     betterDigestion: [
       {
         imgForTitle: "/species/products/endopower.webp",
-        link: "/endopower",
+        link: "/products/endopower",
         id: "1",
         description:
           "Endo-Power is powerful digestion accelerator. It contains optimal enzymes for corn-soybean meal based diet, targeting NSPs for accelerated hydrolyzation.",
       },
       {
         imgForTitle: "/species/products/lipidol.webp",
-        link: "/endopower",
+        link: "/products/lipidol",
         id: "2",
         description:
           "Lipidol is the world’s first absorption accelerator. It contains highly concentrated functional lysophospholipids. Lipidol accelerates nurient absorption, thereby enhances livestock performance and minimizes nutrient and energy loss in the feed.",
       },
       {
         imgForTitle: "/species/products/endophos.webp",
-        link: "/endoPhos",
+        link: "/products/endophos",
         id: "3",
         description:
           "Endo-Phos is highly effective phytase. It increases bioavailability of phosphorus and other nutrients including minerals and reduces feed costs and phosphorus loss.",
@@ -29,35 +29,35 @@ const Poultry = () => {
     boosting: [
       {
         imgForTitle: "/species/products/proBe.webp",
-        link: "/endopower",
+        link: "/products/probe-bac",
         id: "1",
         description:
           "ProBe-Bac is a mixture of bacteriophages precisely selected against specific poultry or swine disease. It effectively controls various diseases that are prevalent in poultry or swine industry.",
       },
       {
         imgForTitle: "/species/products/growmax.webp",
-        link: "/endopower",
+        link: "/products/grow-max",
         id: "1",
         description:
           "GrowMax is the organic chromium picolinate product for animal performance. It improves the reproductive performance and reduces stress in animals.",
       },
       {
         imgForTitle: "/species/products/boar.webp",
-        link: "/endopower",
+        link: "/products/boar-power-max",
         id: "1",
         description:
           "Boar Power Max is cookie-type nutritional balanced supplement for boar performance. It contains L-Carnitine and Cr-picolinate to enhance boar performance.",
       },
       {
         imgForTitle: "/species/products/fermiko.webp",
-        link: "/endopower",
+        link: "/products/fermiko",
         id: "1",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
       },
       {
         imgForTitle: "/species/products/thermo.webp",
-        link: "/endopower",
+        link: "/products/thermo-rex",
         id: "1",
         description:
           "ThermoRex is an all-in-one anti-stress solution developed by Pathway Intermediates that supports food-producing animals to overcome stress.",

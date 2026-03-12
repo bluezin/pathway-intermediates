@@ -1,5 +1,5 @@
 import Header from "@/components/organisms/header";
-import ProductOptions from "@/components/templates/products/components/product-option";
+import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Endophos = () => {
   return (
@@ -30,7 +30,8 @@ const Endophos = () => {
             },
             {
               id: "3",
-              title: "Endo-Power<sup class='size-14'>®</sup> is the right key to nutrient digestion",
+              title:
+                "Endo-Power<sup class='size-14'>®</sup> is the right key to nutrient digestion",
               description:
                 "As a lock can be opened with the right key, all enzymes are substrate specific as they can only be activated upon encountering the desired substrate. Endo-Power is composed of α-galactosidase, galactomannanase, xylanase, and β-glucananse. It is produced from solid-state fermentation of non-GMO fungi, <span class='italic'>Aspergillus niger</span> and <span class='italic'>Aspergillus oryzae</span>. This unique fermentation process provides additional ancillary enzymes such as amylase, phytase, etc. for the complete breakdown of feed ingredients.",
             },

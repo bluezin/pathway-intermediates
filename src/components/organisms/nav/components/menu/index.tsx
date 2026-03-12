@@ -64,14 +64,19 @@ const Menu = ({
       id: "productList",
       options: [
         {
-          title: "Lipidol Prime",
-          link: "#",
+          title: "Accelerator Solutions",
+          link: "/products/categories/accelerator-solutions",
           id: "1",
         },
         {
-          title: "Lipidol Protect",
-          link: "#",
+          title: "Gut Health Enhancers",
+          link: "/products/categories/gut-health-enhancers",
           id: "2",
+        },
+        {
+          title: "Functional Feed Additives",
+          link: "/products/categories/functional-feed-additives",
+          id: "3",
         },
       ],
     },

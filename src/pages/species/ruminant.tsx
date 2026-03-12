@@ -6,7 +6,7 @@ const Ruminant = () => {
     betterDigestion: [
       {
         imgForTitle: "/species/products/lipidol.webp",
-        link: "/endopower",
+        link: "/products/lipidol",
         id: "2",
         description:
           "Lipidol is the world’s first absorption accelerator. It contains highly concentrated functional lysophospholipids. Lipidol accelerates nurient absorption, thereby enhances livestock performance and minimizes nutrient and energy loss in the feed.",
@@ -15,7 +15,7 @@ const Ruminant = () => {
     boosting: [
       {
         imgForTitle: "/species/products/thermo.webp",
-        link: "/endopower",
+        link: "/products/thermo-rex",
         id: "1",
         description:
           "ThermoRex is an all-in-one anti-stress solution developed by Pathway Intermediates that supports food-producing animals to overcome stress.",
@@ -24,7 +24,7 @@ const Ruminant = () => {
     improvingGut: [
       {
         imgForTitle: "/species/products/yeaMune.webp",
-        link: "/endopower",
+        link: "/products/yea-mune-up",
         id: "1",
         description:
           "YeaMune-UP is an one-of-a-kind immune accelerator produced with <span class='italic'>S.c. boulardii.</span> It is a highly effective immune accelerator rich in β-glucan, mannan-oligosaccharides (MOS) and abundant nutrients.",

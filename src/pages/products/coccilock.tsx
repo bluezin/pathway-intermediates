@@ -1,5 +1,5 @@
 import Header from "@/components/organisms/header";
-import ProductOptions from "@/components/templates/products/components/product-option";
+import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Coccilock = () => {
   return (

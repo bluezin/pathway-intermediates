@@ -1,10 +1,13 @@
 import Header from "@/components/organisms/header";
-import ProductOptions from "@/components/templates/products/components/product-option";
+import ProductOptions from "@/components/templates/products/components/products-option";
 
 const YeaMuneUp = () => {
   return (
     <>
-      <Header banner="/banners/products/grains.webp" title="Gut Health Enhancers" />
+      <Header
+        banner="/banners/products/grains.webp"
+        title="Gut Health Enhancers"
+      />
 
       <ProductOptions
         item={{
