@@ -1,12 +1,12 @@
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/product-option";
 
-const Endophos = () => {
+const ThermoRex = () => {
   return (
     <>
       <Header
-        banner="/banners/products/accelerator-solutions.webp"
-        title="Accelerator Solutions"
+        banner="/banners/products/grains.webp"
+        title="Functional Feed Additives"
       />
 
       <ProductOptions
@@ -38,4 +38,4 @@ const Endophos = () => {
   );
 };
 
-export default Endophos;
+export default ThermoRex;

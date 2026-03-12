@@ -5,7 +5,7 @@ const Endophos = () => {
   return (
     <>
       <Header
-        banner="/banners/products/accelerator-solutions.webp"
+        banner="/banners/products/condiments.webp"
         title="Accelerator Solutions"
       />
 

@@ -5,7 +5,7 @@ const ProbeBac = () => {
   return (
     <>
       <Header
-        banner="/banners/products/functional-feed-additives.webp"
+        banner="/banners/products/grains.webp"
         title="Functional Feed Additives"
       />
 
@@ -39,7 +39,7 @@ const ProbeBac = () => {
             {
               id: "4",
               title:
-                "ProBe-Bac<sup class='size-14'>®</sup>: a powerful combination of selected bacteriophages",
+                "ProBe-Bac<sup class='size-14'>®</sup> : a powerful combination of selected bacteriophages",
               description:
                 "ProBe-Bac is a cocktail product containing mixture of bacteriophages precisely selected against specific disease. This powerful combination allows ProBe-Bac to tackle various diseases that are prevalent in poultry or swine industry.",
             },

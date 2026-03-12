@@ -66,28 +66,28 @@ const Poultry = () => {
     improvingGut: [
       {
         imgForTitle: "/species/products/yeaMune.webp",
-        link: "/endopower",
+        link: "/products/yea-mune-up",
         id: "1",
         description:
           "YeaMune-UP is an one-of-a-kind immune accelerator produced with <span class='italic'>S.c. boulardii.</span> It is a highly effective immune accelerator rich in β-glucan, mannan-oligosaccharides (MOS) and abundant nutrients.",
       },
       {
         imgForTitle: "/species/products/coccilok.webp",
-        link: "/endopower",
+        link: "/products/coccilock",
         id: "1",
         description:
           "CocciLock is eco-friendly anticoccidial product which ensuring constant growth performance. It also improves gut and farm environment and uniformity.",
       },
       {
         imgForTitle: "/species/products/qLife.webp",
-        link: "/endopower",
+        link: "/products/q-life",
         id: "1",
         description:
           "Q-Life is a natural alternative solution to anticoccidials with proven results for coccidiosis control and animal growth improvement. It contains phytogenic ingredients that have been carefully selected and tested by Pathway Intermediates.",
       },
       {
         imgForTitle: "/species/products/genikan.webp",
-        link: "/endopower",
+        link: "/products/genikan",
         id: "1",
         description:
           "Genikan is high-quality yeast culture for gastrointestinal health. It is new generation of Yeasture, which has been produced and supplied for more than 17 years.",

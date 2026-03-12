@@ -5,7 +5,7 @@ const BoarPowerMax = () => {
   return (
     <>
       <Header
-        banner="/banners/products/s.webp"
+        banner="/banners/products/spices.webp"
         title="Functional Feed Additives"
       />
 
@@ -17,7 +17,7 @@ const BoarPowerMax = () => {
             {
               id: "1",
               description:
-                "In order to maximize the ability of breeding pigs, it is important to provide the most appropriate nutrient levels in feed. Boar Power Max is made of high functional ingredients that are excellent for breeding capacity and stress alleviation.<br><br>Boar Power Max is a cookie form which can be supplemented as snack and maximizes usability. It includes L-Carnitine to increase available essential energy for sperm cell growth and its motility and have further effects in preventing stress. In addition, Cr-picolinate, a functional and essential mineral, is reinforced to activate insulin metabolism in the body, thereby improving the nutrient availability and reproductive hormone functions in pig.<br><br> For boar, 4 pieces of cookies (100g) to be mixed in feeds from the start of breeding is recommended.",
+                "In order to maximize the ability of breeding pigs, it is important to provide the most appropriate nutrient levels in feed. Boar Power Max is made of high functional ingredients that are excellent for breeding capacity and stress alleviation.<br><br>Boar Power Max is a cookie form which can be supplemented as snack and maximizes usability. It includes L-Carnitine to increase available essential energy for sperm cell growth and its motility and have further effects in preventing stress. In addition, Cr-picolinate, a functional and essential mineral, is reinforced to activate insulin metabolism in the body, thereby improving the nutrient availability and reproductive hormone functions in pig.<br><br>Boar Power Max has a vegetable flavor and high quality yeast cultures as key ingredients, thus enhancing palatability.<br><br>For boar, 4 pieces of cookies (100g) to be mixed in feeds from the start of breeding is recommended.",
             },
             {
               id: "2",

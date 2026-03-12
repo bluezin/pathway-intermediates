@@ -4,7 +4,7 @@ import ProductOptions from "@/components/templates/products/components/product-o
 const YeaMuneUp = () => {
   return (
     <>
-      <Header banner="/banners/products/s.webp" title="Gut Health Enhancers" />
+      <Header banner="/banners/products/grains.webp" title="Gut Health Enhancers" />
 
       <ProductOptions
         item={{

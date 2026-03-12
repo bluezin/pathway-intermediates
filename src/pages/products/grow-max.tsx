@@ -5,7 +5,7 @@ const GrowMax = () => {
   return (
     <>
       <Header
-        banner="/banners/products/natural-growth-promoters.webp"
+        banner="/banners/products/natural.webp"
         title="Natural Growth Promoters"
       />
 
