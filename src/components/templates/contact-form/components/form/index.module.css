@@ -86,6 +86,7 @@
     align-items: center;
     position: relative;
     justify-content: center;
+    cursor: pointer;
   }
 
   .close__btn span {
@@ -96,7 +97,6 @@
     display: block;
     font-size: 0;
     position: absolute;
-    cursor: pointer;
   }
 
   .close__btn>span:nth-child(1) {

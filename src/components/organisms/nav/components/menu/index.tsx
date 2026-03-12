@@ -35,6 +35,7 @@ const Menu = ({
     },
     {
       title: "Species",
+      link: "/species",
       id: "species",
       options: [
         {

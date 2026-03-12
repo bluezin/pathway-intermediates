@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useEffect, useRef, useState } from "react";
 import styles from "./index.module.css";
 
@@ -45,16 +46,26 @@ const SelectField = ({
     <div style={{ position: "relative" }}>
       <p className={styles.label}>{label}</p>
 
-      <input
-        id={id}
-        value={selectedOption}
-        onClick={() => {
-          setShowOptions(true);
-        }}
-        className={styles.input}
-        readOnly
-        onBlur={onBlur}
-      />
+      <div className={styles.container__input}>
+        <input
+          id={id}
+          value={selectedOption}
+          onClick={() => {
+            setShowOptions(true);
+          }}
+          className={styles.input}
+          readOnly
+          onBlur={onBlur}
+        />
+
+        <button
+          onClick={() => {
+            setShowOptions(true);
+          }}
+        >
+          <img src="/down-arrow.svg" alt="down-arrow" width={20} height={20} />
+        </button>
+      </div>
 
       {showOptions && (
         <div className={styles.container__options} ref={dropdownRef}>

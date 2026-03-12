@@ -16,6 +16,12 @@ const ContactForm = () => {
             Curious to hear more about us? Don’t hesitate to fill out the
             contact form and get in touch
           </p>
+          <p className={styles.informative__text}>
+            Office Address: 3701 Algonquin Rd, Suite 1000, Rolling Meadows, IL
+            60008
+          </p>
+
+          <p className={styles.informative__text}>Phone: 847-873-1631</p>
 
           <div className={styles.container__images}>
             <Link

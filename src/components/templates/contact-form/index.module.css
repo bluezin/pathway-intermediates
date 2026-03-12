@@ -13,7 +13,7 @@
   align-items: center;
   gap: 110px;
   position: relative;
-  z-index: 1;
+  z-index: 30;
   width: 1100px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .informative__text {
-  color: #8ba9b7;
+  color: #a7cadb;
   margin-bottom: 25px;
   font-size: 18px;
 }

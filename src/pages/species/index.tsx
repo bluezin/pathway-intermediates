@@ -4,7 +4,7 @@ import SpeciesTemplate from "@/components/templates/species";
 const Species = () => {
   return (
     <>
-      <Header banner="/banners/banner-species.webp" title="Swine" />
+      <Header banner="/banners/banner-species.webp" title="Species" />
 
       <SpeciesTemplate />
     </>
