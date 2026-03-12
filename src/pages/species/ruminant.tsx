@@ -5,7 +5,7 @@ const Ruminant = () => {
   const data = {
     betterDigestion: [
       {
-        imgForTitle: "/species/products/lipidol.webp",
+        imgForTitle: "/products/logos2/lipidol.webp",
         link: "/products/lipidol",
         id: "2",
         description:
@@ -14,7 +14,7 @@ const Ruminant = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/species/products/thermo.webp",
+        imgForTitle: "/products/logos2/thermo.webp",
         link: "/products/thermo-rex",
         id: "1",
         description:
@@ -23,7 +23,7 @@ const Ruminant = () => {
     ],
     improvingGut: [
       {
-        imgForTitle: "/species/products/yeaMune.webp",
+        imgForTitle: "/products/logos2/yeaMune.webp",
         link: "/products/yea-mune-up",
         id: "1",
         description:

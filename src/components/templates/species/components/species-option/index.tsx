@@ -1,5 +1,5 @@
-import { Specie } from "@/components/types/species";
-import Card from "../card";
+import { Specie } from "@/components/types";
+import Card from "../../../../molecules/card";
 import styles from "./index.module.css";
 
 const SpeciesOption = ({

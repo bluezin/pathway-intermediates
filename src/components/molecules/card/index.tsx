@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./index.module.css";
-import { Specie } from "@/components/types/species";
+import { Specie } from "@/components/types";
 
 const Card = ({ item }: { item: Specie }) => {
   return (

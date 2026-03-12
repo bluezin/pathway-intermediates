@@ -5,21 +5,21 @@ const Aquaculture = () => {
   const data = {
     betterDigestion: [
       {
-        imgForTitle: "/species/products/endopower.webp",
+        imgForTitle: "/products/logos2/endopower.webp",
         link: "/products/endopower",
         id: "1",
         description:
           "Endo-Power is powerful digestion accelerator. It contains optimal enzymes for corn-soybean meal based diet, targeting NSPs for accelerated hydrolyzation.",
       },
       {
-        imgForTitle: "/species/products/lipidol.webp",
+        imgForTitle: "/products/logos2/lipidol.webp",
         link: "/products/lipidol",
         id: "2",
         description:
           "Lipidol is the world’s first absorption accelerator. It contains highly concentrated functional lysophospholipids. Lipidol accelerates nurient absorption, thereby enhances livestock performance and minimizes nutrient and energy loss in the feed.",
       },
       {
-        imgForTitle: "/species/products/endophos.webp",
+        imgForTitle: "/products/logos2/endophos.webp",
         link: "/products/endophos",
         id: "3",
         description:
@@ -28,7 +28,7 @@ const Aquaculture = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/species/products/fermiko.webp",
+        imgForTitle: "/products/logos2/fermiko.webp",
         link: "/products/fermiko",
         id: "1",
         description:
@@ -37,7 +37,7 @@ const Aquaculture = () => {
     ],
     improvingGut: [
       {
-        imgForTitle: "/species/products/yeaMune.webp",
+        imgForTitle: "/products/logos2/yeaMune.webp",
         link: "/products/yea-mune-up",
         id: "1",
         description:
