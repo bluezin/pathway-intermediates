@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import styles from "./index.module.css";
 import Link from "next/link";
 import Form from "./components/form";
 import { useState } from "react";
+import Image from "next/image";
 
 const ContactForm = () => {
   const [open, setOpen] = useState(false);
@@ -27,13 +27,23 @@ const ContactForm = () => {
             <Link
               href={"https://www.facebook.com/Pathway.Intermediates.global/"}
             >
-              <img src="/facebook.webp" alt="facebook" />
+              <Image
+                width={45}
+                height={45}
+                src="/facebook.webp"
+                alt="facebook"
+              />
             </Link>
 
             <Link
               href={"https://www.linkedin.com/company/pathway-intermediates/"}
             >
-              <img src="/linkedin.webp" alt="linkedin" />
+              <Image
+                width={45}
+                height={45}
+                src="/linkedin.webp"
+                alt="linkedin"
+              />
             </Link>
           </div>
 

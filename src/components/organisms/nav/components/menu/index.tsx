@@ -63,6 +63,7 @@ const Menu = ({
     {
       title: "Product List",
       id: "productList",
+      link: "/products",
       options: [
         {
           title: "Accelerator Solutions",

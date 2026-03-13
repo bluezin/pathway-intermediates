@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import styles from "./index.module.css";
 
 interface Content {
@@ -22,7 +22,12 @@ const ProductsOption = ({
   return (
     <section className={styles.container}>
       <div className={styles.nav}>
-        <img src={item.imgForTitle} alt="product-option-imgForTitle" />
+        <Image
+          width={284}
+          height={100}
+          src={item.imgForTitle}
+          alt="product-option-imgForTitle"
+        />
         <p>{item.subTitle}</p>
       </div>
 
@@ -59,7 +64,14 @@ const ProductsOption = ({
               className={styles.content__description}
             />
           )}
-          {data?.img && <img src={data.img} alt="info" />}
+          {data?.img && (
+            <Image
+              fill
+              src={data.img}
+              className={styles.content__img}
+              alt="info"
+            />
+          )}
           {data?.list && (
             <ul className={styles.content__list__container}>
               {data.list?.map((listItem, index) => (

@@ -21,7 +21,7 @@ const SpeciesTemplate = () => {
 
   return (
     <section className={styles.container}>
-      <h1 className={styles.title}>Pathway Species</h1>
+      <h2 className={styles.title}>Pathway Species</h2>
       <p className={styles.divider}></p>
       <h2 className={styles.description}>
         Our solutions are continuously being researched at leading universities

@@ -42,11 +42,6 @@
   gap: 14px;
 }
 
-.container__images  img {
-  width: 45px !important;
-  height: 45px !important;
-}
-
 .informative__text {
   color: #a7cadb;
   margin-bottom: 25px;

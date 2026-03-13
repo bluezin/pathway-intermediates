@@ -1,5 +1,5 @@
 const ProductsTemplate = () => {
-  return <div>Products</div>;
+  return <section></section>;
 };
 
 export default ProductsTemplate;

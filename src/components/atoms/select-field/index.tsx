@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import { useEffect, useRef, useState } from "react";
 import styles from "./index.module.css";
+import Image from "next/image";
 
 const SelectField = ({
   id,
@@ -63,7 +63,7 @@ const SelectField = ({
             setShowOptions(true);
           }}
         >
-          <img src="/down-arrow.svg" alt="down-arrow" width={20} height={20} />
+          <Image src="/down-arrow.svg" alt="down-arrow" width={20} height={20} />
         </button>
       </div>
 

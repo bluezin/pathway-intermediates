@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import styles from "./index.module.css";
 
 const Notices = () => {
@@ -32,7 +32,7 @@ const Notices = () => {
     return (
       <div key={item.id}>
         <div className={styles.content__container__img}>
-          <img src={item.img} alt="lee" />
+          <Image width={100} height={100} src={item.img} alt="lee" />
         </div>
 
         <p className={styles.description}>{item.description}</p>

@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./index.module.css";
+import Image from "next/image";
 
 const Social = () => {
   return (
@@ -10,7 +10,7 @@ const Social = () => {
       <ul>
         <li>
           <Link href={"https://www.facebook.com/Pathway.Intermediates.global/"}>
-            <img src="/facebook.webp" alt="facebook" />
+            <Image width={30} height={30} src="/facebook.webp" alt="facebook" />
           </Link>
           Facebook
         </li>
@@ -19,7 +19,7 @@ const Social = () => {
           <Link
             href={"https://www.linkedin.com/company/pathway-intermediates/"}
           >
-            <img src="/linkedin.webp" alt="linkedin" />
+            <Image width={30} height={30} src="/linkedin.webp" alt="linkedin" />
           </Link>
           Linkedin
         </li>

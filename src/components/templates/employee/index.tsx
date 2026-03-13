@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import styles from "./index.module.css";
 
@@ -68,7 +67,7 @@ const EmployeeTemplate = () => {
         {employees.map((item) => (
           <div key={item.id} className={styles.content__item}>
             <div className={styles.content__item__containerImg}>
-              <img src={item.image} alt={item.name} />
+              <Image width={100} height={320} src={item.image} alt={item.name} />
             </div>
             <p className={styles.name}>{item.name}</p>
             <p className={styles.divider}></p>

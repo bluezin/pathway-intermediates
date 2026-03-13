@@ -18,7 +18,7 @@
 }
 
 .nav img {
-  width: 284px;
+  height: auto;
 }
 
 .divider {
@@ -52,6 +52,13 @@
 
 .content {
   margin-bottom: 80px;
+}
+
+.content__img {
+  width: 100% !important;
+  height: auto !important;
+  position: relative !important;
+  margin-top: 25px;
 }
 
 .content__list__container {
