@@ -5,14 +5,14 @@ const YeaMuneUp = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Gut Health Enhancers"
       />
 
       <ProductOptions
         item={{
           subTitle: "IMMUNE ACCELERATOR",
-          imgForTitle: "/products/logos/yea-mune-yup.webp",
+          imgForTitle: "/images/products/logos/yea-mune-yup.webp",
           content: [
             {
               id: "1",

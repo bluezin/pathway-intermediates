@@ -5,14 +5,14 @@ const Fermiko = () => {
   return (
     <>
       <Header
-        banner="/banners/products/natural.webp"
+        banner="/images/banners/products/natural.webp"
         title="Natural Growth Promoters"
       />
 
       <ProductOptions
         item={{
           subTitle: "THE NATURAL FERMENTED CHITOSAN AND COS",
-          imgForTitle: "/products/logos/fermkito-logo.webp",
+          imgForTitle: "/images/products/logos/fermkito-logo.webp",
           content: [
             {
               id: "1",

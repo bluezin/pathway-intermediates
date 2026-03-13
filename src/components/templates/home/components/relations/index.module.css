@@ -35,15 +35,15 @@
 }
 
 .productList {
-  background: url("/fruits.webp") center center no-repeat;
+  background: url("/images/fruits.webp") center center no-repeat;
 }
 
 .history {
-  background: url("/banners/banner-history.png") center center no-repeat;
+  background: url("/images/banners/banner-history.png") center center no-repeat;
 }
 
 .species {
-  background: url("/banners/banner-species.webp") center center no-repeat;
+  background: url("/images/banners/banner-species.webp") center center no-repeat;
 }
 
 .banner {

@@ -4,7 +4,7 @@ import HistoryTemplate from "@/components/templates/history";
 const History = () => {
   return (
     <>
-      <Header banner="/banners/banner-history.png" title="History" />
+      <Header banner="/images/banners/banner-history.png" title="History" />
       <HistoryTemplate />
     </>
   );

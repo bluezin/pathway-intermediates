@@ -30,7 +30,7 @@ const ContactForm = () => {
               <Image
                 width={45}
                 height={45}
-                src="/facebook.webp"
+                src="/images/facebook.webp"
                 alt="facebook"
               />
             </Link>
@@ -41,7 +41,7 @@ const ContactForm = () => {
               <Image
                 width={45}
                 height={45}
-                src="/linkedin.webp"
+                src="/images/linkedin.webp"
                 alt="linkedin"
               />
             </Link>

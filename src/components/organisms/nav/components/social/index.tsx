@@ -10,7 +10,12 @@ const Social = () => {
       <ul>
         <li>
           <Link href={"https://www.facebook.com/Pathway.Intermediates.global/"}>
-            <Image width={30} height={30} src="/facebook.webp" alt="facebook" />
+            <Image
+              width={30}
+              height={30}
+              src="/images/facebook.webp"
+              alt="facebook"
+            />
           </Link>
           Facebook
         </li>
@@ -19,7 +24,7 @@ const Social = () => {
           <Link
             href={"https://www.linkedin.com/company/pathway-intermediates/"}
           >
-            <Image width={30} height={30} src="/linkedin.webp" alt="linkedin" />
+            <Image width={30} height={30} src="/images/linkedin.webp" alt="linkedin" />
           </Link>
           Linkedin
         </li>

@@ -5,14 +5,14 @@ const QLife = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Gut Health Enhancers"
       />
 
       <ProductOptions
         item={{
           subTitle: "NATURAL ALTERNATIVE TO ANTICOCCIDIALS",
-          imgForTitle: "/products/logos/q-life-logo.webp",
+          imgForTitle: "/images/products/logos/q-life-logo.webp",
           linkVideo:
             "https://www.youtube.com/embed/fLocDAdaozE?si=NFOal74kkGosKQ8B",
           content: [

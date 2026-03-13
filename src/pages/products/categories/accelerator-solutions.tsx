@@ -5,7 +5,7 @@ const AcceleratorSolutions = () => {
   return (
     <>
       <Header
-        banner="/banners/products/condiments.webp"
+        banner="/images/banners/products/condiments.webp"
         title="Accelerator Solutions"
       />
 
@@ -13,19 +13,19 @@ const AcceleratorSolutions = () => {
         title="Accelerator Solutions"
         data={[
           {
-            imgForTitle: "/products/logos2/lipidol-prime.webp",
+            imgForTitle: "/images/products/logos2/lipidol-prime.webp",
             link: "/products/lipidol-prime",
             id: "1",
             description: "lipidol-prime",
           },
           {
-            imgForTitle: "/products/logos2/lipidol-protect.webp",
+            imgForTitle: "/images/products/logos2/lipidol-protect.webp",
             link: "/products/lipidol-protect",
             id: "2",
             description: "lipidol-protect",
           },
           {
-            imgForTitle: "/products/logos2/endopower.webp",
+            imgForTitle: "/images/products/logos2/endopower.webp",
             link: "/products/endopower",
             id: "3",
             description:

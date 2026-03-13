@@ -5,14 +5,14 @@ const Endophos = () => {
   return (
     <>
       <Header
-        banner="/banners/products/natural.webp"
+        banner="/images/banners/products/natural.webp"
         title="Natural Growth Promoters"
       />
 
       <ProductOptions
         item={{
           subTitle: "THE HIGHLY EFFECTIVE PHYTASE",
-          imgForTitle: "/products/logos/endophos-logo.webp",
+          imgForTitle: "/images/products/logos/endophos-logo.webp",
           content: [
             {
               id: "1",

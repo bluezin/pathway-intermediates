@@ -61,19 +61,19 @@
 }
 
 .swine {
-  background: url("/banners/species/swine.webp") center no-repeat;
+  background: url("/images/banners/species/swine.webp") center no-repeat;
 }
 
 .poultry {
-  background: url("/banners/species/poultry.webp") center no-repeat;
+  background: url("/images/banners/species/poultry.webp") center no-repeat;
 }
 
 .ruminant {
-  background: url("/banners/species/ruminant.webp") center no-repeat;
+  background: url("/images/banners/species/ruminant.webp") center no-repeat;
 }
 
 .aquaculture {
-  background: url("/banners/species/aquaculture.webp") center no-repeat;
+  background: url("/images/banners/species/aquaculture.webp") center no-repeat;
 }
 
 .container__link__banner {

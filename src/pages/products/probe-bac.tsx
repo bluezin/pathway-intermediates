@@ -5,14 +5,14 @@ const ProbeBac = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Functional Feed Additives"
       />
 
       <ProductOptions
         item={{
           subTitle: "New Preventative Approach for Bacterial Infection",
-          imgForTitle: "/products/logos/probe-bac-logo.webp",
+          imgForTitle: "/images/products/logos/probe-bac-logo.webp",
           linkVideo:
             "https://www.youtube.com/embed/iiqjt4I9jbc?si=x6VhnjsEDTt9ezij",
           content: [

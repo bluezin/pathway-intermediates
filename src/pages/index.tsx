@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header banner="/banners/banner-main.webp" bannerMain />
+      <Header banner="/images/banners/banner-main.webp" bannerMain />
       <HomeTempalte />
     </>
   );

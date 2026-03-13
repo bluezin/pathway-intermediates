@@ -5,14 +5,14 @@ const BoarPowerMax = () => {
   return (
     <>
       <Header
-        banner="/banners/products/spices.webp"
+        banner="/images/banners/products/spices.webp"
         title="Functional Feed Additives"
       />
 
       <ProductOptions
         item={{
           subTitle: "NUTRITIONAL BALANCED SUPPLEMENT FOR BOAR PERFORMANCE",
-          imgForTitle: "/products/logos/boar-power-max-logo.webp",
+          imgForTitle: "/images/products/logos/boar-power-max-logo.webp",
           content: [
             {
               id: "1",

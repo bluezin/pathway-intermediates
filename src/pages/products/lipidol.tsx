@@ -5,14 +5,14 @@ const Lipidol = () => {
   return (
     <>
       <Header
-        banner="/banners/products/condiments.webp"
+        banner="/images/banners/products/condiments.webp"
         title="Accelerator Solutions"
       />
 
       <ProductOptions
         item={{
           subTitle: "THE FIRST ABSORPTION ACCELERATOR",
-          imgForTitle: "/products/logos/lipidol-logo.webp",
+          imgForTitle: "/images/products/logos/lipidol-logo.webp",
           linkVideo:
             "https://www.youtube.com/embed/YiGlBKvPKpM?si=l0Dz_EaiKbG-TT0b",
           content: [

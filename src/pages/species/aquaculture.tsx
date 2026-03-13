@@ -5,21 +5,21 @@ const Aquaculture = () => {
   const data = {
     betterDigestion: [
       {
-        imgForTitle: "/products/logos2/endopower.webp",
+        imgForTitle: "/images/products/logos2/endopower.webp",
         link: "/products/endopower",
         id: "1",
         description:
           "Endo-Power is powerful digestion accelerator. It contains optimal enzymes for corn-soybean meal based diet, targeting NSPs for accelerated hydrolyzation.",
       },
       {
-        imgForTitle: "/products/logos2/lipidol.webp",
+        imgForTitle: "/images/products/logos2/lipidol.webp",
         link: "/products/lipidol",
         id: "2",
         description:
           "Lipidol is the world’s first absorption accelerator. It contains highly concentrated functional lysophospholipids. Lipidol accelerates nurient absorption, thereby enhances livestock performance and minimizes nutrient and energy loss in the feed.",
       },
       {
-        imgForTitle: "/products/logos2/endophos.webp",
+        imgForTitle: "/images/products/logos2/endophos.webp",
         link: "/products/endophos",
         id: "3",
         description:
@@ -28,7 +28,7 @@ const Aquaculture = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/products/logos2/fermiko.webp",
+        imgForTitle: "/images/products/logos2/fermiko.webp",
         link: "/products/fermiko",
         id: "1",
         description:
@@ -37,7 +37,7 @@ const Aquaculture = () => {
     ],
     improvingGut: [
       {
-        imgForTitle: "/products/logos2/yeaMune.webp",
+        imgForTitle: "/images/products/logos2/yeaMune.webp",
         link: "/products/yea-mune-up",
         id: "1",
         description:
@@ -48,7 +48,10 @@ const Aquaculture = () => {
 
   return (
     <>
-      <Header banner="/banners/species/aquaculture.webp" title="Aquaculture" />
+      <Header
+        banner="/images/banners/species/aquaculture.webp"
+        title="Aquaculture"
+      />
 
       <SpeciesOption data={data} />
     </>

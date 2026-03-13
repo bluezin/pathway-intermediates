@@ -5,21 +5,21 @@ const Swine = () => {
   const data = {
     betterDigestion: [
       {
-        imgForTitle: "/products/logos2/endopower.webp",
+        imgForTitle: "/images/products/logos2/endopower.webp",
         link: "/products/endopower",
         id: "1",
         description:
           "Endo-Power is powerful digestion accelerator. It contains optimal enzymes for corn-soybean meal based diet, targeting NSPs for accelerated hydrolyzation.",
       },
       {
-        imgForTitle: "/products/logos2/lipidol.webp",
+        imgForTitle: "/images/products/logos2/lipidol.webp",
         link: "/products/lipidol",
         id: "2",
         description:
           "Lipidol is the world’s first absorption accelerator. It contains highly concentrated functional lysophospholipids. Lipidol accelerates nurient absorption, thereby enhances livestock performance and minimizes nutrient and energy loss in the feed.",
       },
       {
-        imgForTitle: "/products/logos2/endophos.webp",
+        imgForTitle: "/images/products/logos2/endophos.webp",
         link: "/products/endophos",
         id: "3",
         description:
@@ -28,35 +28,35 @@ const Swine = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/products/logos2/proBe.webp",
+        imgForTitle: "/images/products/logos2/proBe.webp",
         link: "/products/probe-bac",
         id: "1",
         description:
           "ProBe-Bac is a mixture of bacteriophages precisely selected against specific poultry or swine disease. It effectively controls various diseases that are prevalent in poultry or swine industry.",
       },
       {
-        imgForTitle: "/products/logos2/growmax.webp",
+        imgForTitle: "/images/products/logos2/growmax.webp",
         link: "/products/grow-max",
         id: "1",
         description:
           "GrowMax is the organic chromium picolinate product for animal performance. It improves the reproductive performance and reduces stress in animals.",
       },
       {
-        imgForTitle: "/products/logos2/boar.webp",
+        imgForTitle: "/images/products/logos2/boar.webp",
         link: "/products/boar-power-max",
         id: "1",
         description:
           "Boar Power Max is cookie-type nutritional balanced supplement for boar performance. It contains L-Carnitine and Cr-picolinate to enhance boar performance.",
       },
       {
-        imgForTitle: "/products/logos2/fermiko.webp",
+        imgForTitle: "/images/products/logos2/fermiko.webp",
         link: "/products/fermiko",
         id: "1",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
       },
       {
-        imgForTitle: "/products/logos2/thermo.webp",
+        imgForTitle: "/images/products/logos2/thermo.webp",
         link: "/products/thermo-rex",
         id: "1",
         description:
@@ -65,14 +65,14 @@ const Swine = () => {
     ],
     improvingGut: [
       {
-        imgForTitle: "/products/logos2/yeaMune.webp",
+        imgForTitle: "/images/products/logos2/yeaMune.webp",
         link: "/products/yea-mune-up",
         id: "1",
         description:
           "YeaMune-UP is an one-of-a-kind immune accelerator produced with <span class='italic'>S.c. boulardii.</span> It is a highly effective immune accelerator rich in β-glucan, mannan-oligosaccharides (MOS) and abundant nutrients.",
       },
       {
-        imgForTitle: "/products/logos2/genikan.webp",
+        imgForTitle: "/images/products/logos2/genikan.webp",
         link: "/products/genikan",
         id: "1",
         description:
@@ -83,7 +83,7 @@ const Swine = () => {
 
   return (
     <>
-      <Header banner="/banners/species/swine.webp" title="Swine" />
+      <Header banner="/images/banners/species/swine.webp" title="Swine" />
 
       <SpeciesOption data={data} />
     </>

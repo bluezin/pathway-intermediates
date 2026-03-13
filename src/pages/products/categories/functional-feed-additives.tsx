@@ -5,7 +5,7 @@ const FunctionalFeedAdditives = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Accelerator Solutions"
       />
 
@@ -13,25 +13,25 @@ const FunctionalFeedAdditives = () => {
         title="Accelerator Solutions"
         data={[
           {
-            imgForTitle: "/products/logos2/gromega.webp",
+            imgForTitle: "/images/products/logos2/gromega.webp",
             link: "/products/gromega",
             id: "1",
             description: "gromega",
           },
           {
-            imgForTitle: "/products/logos2/enncinate.webp",
+            imgForTitle: "/images/products/logos2/enncinate.webp",
             link: "/products/enncinate",
             id: "2",
             description: "enncinate",
           },
           {
-            imgForTitle: "/products/logos2/mycoSecure.webp",
+            imgForTitle: "/images/products/logos2/mycoSecure.webp",
             link: "/products/mycoSecure",
             id: "3",
             description: "MycoSecure",
           },
           {
-            imgForTitle: "/products/logos2/proBe.webp",
+            imgForTitle: "/images/products/logos2/proBe.webp",
             link: "/products/probe-bac",
             id: "4",
             description:

@@ -5,7 +5,7 @@ const Coccilock = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Gut Health Enhancers"
       />
 
@@ -13,7 +13,7 @@ const Coccilock = () => {
         item={{
           subTitle:
             "ECO-FRIENDLY PRODUCT FOR ENSURING CONSTANT GROWTH PERFORMANCE",
-          imgForTitle: "/products/logos/coccilock-logo.webp",
+          imgForTitle: "/images/products/logos/coccilock-logo.webp",
           content: [
             {
               id: "1",

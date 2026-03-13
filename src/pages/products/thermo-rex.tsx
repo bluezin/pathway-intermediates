@@ -5,14 +5,14 @@ const ThermoRex = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Functional Feed Additives"
       />
 
       <ProductOptions
         item={{
           subTitle: "All-in-One Anti-Stress Solution",
-          imgForTitle: "/products/logos/thermo-rex-logo.webp",
+          imgForTitle: "/images/products/logos/thermo-rex-logo.webp",
           content: [
             {
               id: "1",

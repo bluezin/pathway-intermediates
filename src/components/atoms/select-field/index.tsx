@@ -63,7 +63,7 @@ const SelectField = ({
             setShowOptions(true);
           }}
         >
-          <Image src="/down-arrow.svg" alt="down-arrow" width={20} height={20} />
+          <Image src="/images/down-arrow.svg" alt="down-arrow" width={20} height={20} />
         </button>
       </div>
 

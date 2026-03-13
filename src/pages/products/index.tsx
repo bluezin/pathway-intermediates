@@ -4,7 +4,7 @@ import ProductsTemplate from "@/components/templates/products";
 const Products = () => {
   return (
     <>
-      <Header banner="/banners/banner-products.webp" title="Products" />
+      <Header banner="/images/banners/banner-products.webp" title="Products" />
       <ProductsTemplate />
     </>
   );

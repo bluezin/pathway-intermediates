@@ -5,14 +5,14 @@ const GrowMax = () => {
   return (
     <>
       <Header
-        banner="/banners/products/natural.webp"
+        banner="/images/banners/products/natural.webp"
         title="Natural Growth Promoters"
       />
 
       <ProductOptions
         item={{
           subTitle: "THE ORGANIC CHROMIUM FOR ANIMAL PERFORMANCE",
-          imgForTitle: "/products/logos/grow-max-logo.webp",
+          imgForTitle: "/images/products/logos/grow-max-logo.webp",
           content: [
             {
               id: "1",

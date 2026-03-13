@@ -5,7 +5,7 @@ const Notices = () => {
   const noticeNews = [
     {
       id: "1",
-      img: "/lee.webp",
+      img: "/images/lee.webp",
       description:
         "Pathway Intermediates Welcomes Pio Lee as Chief Operating Officer",
     },
@@ -14,12 +14,12 @@ const Notices = () => {
   const lastEvents = [
     {
       id: "1",
-      img: "/ipe.webp",
+      img: "/images/ipe.webp",
       description: "Pathway Intermediates joins IPPE 2026",
     },
     {
       id: "2",
-      img: "/ific.webp",
+      img: "/images/ific.webp",
       description: "The International Feed Ingredients Course (iFIC) 2025",
     },
   ];

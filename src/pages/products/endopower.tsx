@@ -5,14 +5,14 @@ const Endophos = () => {
   return (
     <>
       <Header
-        banner="/banners/products/condiments.webp"
+        banner="/images/banners/products/condiments.webp"
         title="Accelerator Solutions"
       />
 
       <ProductOptions
         item={{
           subTitle: "POWERFUL DIGESTION ACCELERATOR",
-          imgForTitle: "/products/logos/endopower-logo.webp",
+          imgForTitle: "/images/products/logos/endopower-logo.webp",
           linkVideo:
             "https://www.youtube.com/embed/IObVtmKTDzY?si=7IzKqkCCI-vp0EJi",
           content: [

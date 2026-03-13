@@ -5,14 +5,14 @@ const Genikan = () => {
   return (
     <>
       <Header
-        banner="/banners/products/grains.webp"
+        banner="/images/banners/products/grains.webp"
         title="Gut Health Enhancers"
       />
 
       <ProductOptions
         item={{
           subTitle: "HIGH QUALITY YEAST CULTURE FOR GASTROINTESTINAL HEALTH",
-          imgForTitle: "/products/logos/genikan-logo.webp",
+          imgForTitle: "/images/products/logos/genikan-logo.webp",
           content: [
             {
               id: "1",

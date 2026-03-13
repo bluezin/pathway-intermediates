@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./index.module.css";
 import Link from "next/link";
-import { navClose, navMenu } from "../../../../public/svg";
+import { navClose, navMenu } from "../../../../public/images/svg";
 import { useEffect, useState } from "react";
 import Menu from "./components/menu";
 
@@ -39,7 +39,7 @@ const Nav = () => {
         className={`${styles.sub__nav} ${scroll ? styles.sub__nav__scroll : ""}`}
       >
         <Link href="/" className={styles.link__logo}>
-          <Image src="/pwi_logo_25.png" alt="logo" width={262} height={57} />
+          <Image src="/images/pwi-logo-25.png" alt="logo" width={262} height={57} />
         </Link>
 
         <button className={`${styles.open__menu}`} onClick={handleOpenMenu}>
