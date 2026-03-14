@@ -23,7 +23,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScroll(window.scrollY > 260);
+      setScroll(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -34,12 +34,17 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${scroll && styles.nav__scroll}`}>
       <div
-        className={`${styles.sub__nav} ${scroll ? styles.sub__nav__scroll : ""}`}
+        className={`${styles.sub__nav} ${openMenu ? styles.sub__nav__for__open__menu : ""} ${scroll ? styles.sub__nav__scroll : ""}`}
       >
         <Link href="/" className={styles.link__logo}>
-          <Image src="/images/pwi-logo-25.png" alt="logo" width={262} height={57} />
+          <Image
+            src="/images/pwi-logo-25.png"
+            alt="logo"
+            width={262}
+            height={57}
+          />
         </Link>
 
         <button className={`${styles.open__menu}`} onClick={handleOpenMenu}>

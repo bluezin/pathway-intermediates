@@ -15,6 +15,7 @@ const Menu = ({
     {
       title: "About",
       id: "about",
+      link: "/about",
       options: [
         {
           title: "Mission & Vision",

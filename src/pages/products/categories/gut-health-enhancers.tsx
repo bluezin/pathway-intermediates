@@ -6,7 +6,7 @@ const GutHealthEnhancers = () => {
     <>
       <Header
         banner="/images/banners/products/grains.webp"
-        title="Gut Health Enhancers"
+        title="lorem umpis"
       />
 
       <CategoriesOption

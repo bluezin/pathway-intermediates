@@ -6,27 +6,37 @@ const Social = () => {
   return (
     <li className={styles.menu__social}>
       <p className={styles.divider}></p>
-
       <ul>
         <li>
-          <Link href={"https://www.facebook.com/Pathway.Intermediates.global/"}>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://www.facebook.com/Pathway.Intermediates.global/"}
+          >
             <Image
               width={30}
               height={30}
               src="/images/facebook.webp"
               alt="facebook"
             />
+            Facebook
           </Link>
-          Facebook
         </li>
 
         <li>
           <Link
             href={"https://www.linkedin.com/company/pathway-intermediates/"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Image width={30} height={30} src="/images/linkedin.webp" alt="linkedin" />
+            <Image
+              width={30}
+              height={30}
+              src="/images/linkedin.webp"
+              alt="linkedin"
+            />
+            Linkedin
           </Link>
-          Linkedin
         </li>
       </ul>
     </li>

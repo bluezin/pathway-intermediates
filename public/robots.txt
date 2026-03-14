@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pathway-intermediates-five.vercel.app
+
+# Sitemaps
+Sitemap: https://pathway-intermediates-five.vercel.app/sitemap.xml

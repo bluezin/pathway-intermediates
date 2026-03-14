@@ -6,7 +6,7 @@ const AcceleratorSolutions = () => {
     <>
       <Header
         banner="/images/banners/products/condiments.webp"
-        title="Accelerator Solutions"
+        title="Lorem impsu"
       />
 
       <CategoriesOption

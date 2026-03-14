@@ -1,48 +1,44 @@
-import Link from "next/link";
-import styles from "./index.module.css";
+import BasePage from "../base-page";
 
 const SpeciesTemplate = () => {
-  const card = ({
-    title,
-    link,
-    id,
-  }: {
-    title: string;
-    link: string;
-    id: string;
-  }) => (
-    <Link href={link} className={styles.container__link}>
-      <div className={`${styles[id]} ${styles.container__link__banner}`} />
-      <h2 className={styles.container__link__title}>{title}</h2>
-      <p className={styles.container__link__sub__divider}></p>
-      <p className={styles.container__link__more}>More</p>
-    </Link>
-  );
-
   return (
-    <section className={styles.container}>
-      <h2 className={styles.title}>Pathway Species</h2>
-      <p className={styles.divider}></p>
-      <h2 className={styles.description}>
-        Our solutions are continuously being researched at leading universities
+    <>
+      <BasePage
+        description="Our solutions are continuously being researched at leading universities
         and research institutes, and the feed product development team and farm
         research teams are constantly monitoring our products. We focus our
         energies on continually seeking where our expertise is best spent,
         listening and assisting our customers, providing them with solutions
-        where they are needed.
-      </h2>
-
-      <div className={styles.container__cards}>
-        {card({ link: "/species/swine", title: "Swine", id: "swine" })}
-        {card({ link: "/species/poultry", title: "Poultry", id: "poultry" })}
-        {card({ link: "/species/ruminant", title: "Ruminant", id: "ruminant" })}
-        {card({
-          link: "/species/aquaculture",
-          title: "Aquaculture",
-          id: "aquaculture",
-        })}
-      </div>
-    </section>
+        where they are needed."
+        title="Pathway Species"
+        listCards={[
+          {
+            link: "/species/swine",
+            title: "Swine",
+            id: "swine",
+            bannerUrl: "/images/banners/species/swine.webp",
+          },
+          {
+            link: "/species/poultry",
+            title: "Poultry",
+            id: "poultry",
+            bannerUrl: "/images/banners/species/poultry.webp",
+          },
+          {
+            link: "/species/ruminant",
+            title: "Ruminant",
+            id: "ruminant",
+            bannerUrl: "/images/banners/species/ruminant.webp",
+          },
+          {
+            link: "/species/aquaculture",
+            title: "Aquaculture",
+            id: "aquaculture",
+            bannerUrl: "/images/banners/species/aquaculture.webp",
+          },
+        ]}
+      />
+    </>
   );
 };
 

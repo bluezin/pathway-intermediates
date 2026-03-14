@@ -16,7 +16,7 @@ const Header = ({
       <div
         className={styles.banner}
         style={{
-          background: `url(${banner}) center center no-repeat`,
+          background: `url(${banner}) top center no-repeat`,
           backgroundSize: "cover",
         }}
       ></div>
@@ -33,16 +33,23 @@ const Header = ({
           </p>
 
           <div className={styles.hero__main__buttons}>
-            <button className={`button-primary ${styles.button}`}>Go to Pathway</button>
+            <button className={`button-primary ${styles.button}`}>
+              Go to Pathway
+            </button>
             <span>or</span>
-            <button className={`button-secondary ${styles.button}`}>Go to Biometrix</button>
+            <button className={`button-secondary ${styles.button}`}>
+              Go to Biometrix
+            </button>
           </div>
         </div>
       )}
 
       {title && (
         <div className={styles.hero__no__main}>
-          <h1 className={styles.hero__no__main__title}>{title}</h1>
+          <h1
+            className={styles.hero__no__main__title}
+            dangerouslySetInnerHTML={{ __html: title }}
+          />
           <Image src="/sub_point.png" alt="sub_point" width={25} height={199} />
         </div>
       )}

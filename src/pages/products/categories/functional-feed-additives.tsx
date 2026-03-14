@@ -6,11 +6,11 @@ const FunctionalFeedAdditives = () => {
     <>
       <Header
         banner="/images/banners/products/grains.webp"
-        title="Accelerator Solutions"
+        title="lorem impsu"
       />
 
       <CategoriesOption
-        title="Accelerator Solutions"
+        title="Functional Feed Additives"
         data={[
           {
             imgForTitle: "/images/products/logos2/gromega.webp",
