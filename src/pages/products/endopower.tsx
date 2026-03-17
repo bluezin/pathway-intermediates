@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
-const Endophos = () => {
+const Endopower = () => {
   return (
     <>
+      <Head title="Endopower" description="Endopower" />
+
       <Header
         banner="/images/banners/products/condiments.webp"
         title="Accelerator Solutions"
@@ -56,4 +59,4 @@ const Endophos = () => {
   );
 };
 
-export default Endophos;
+export default Endopower;

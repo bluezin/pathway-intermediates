@@ -1,3 +1,4 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -28,8 +29,8 @@ const Aquaculture = () => {
     ],
     boosting: [
       {
-        imgForTitle: "/images/products/logos2/fermiko.webp",
-        link: "/products/fermiko",
+        imgForTitle: "/images/products/logos2/fermkito.webp",
+        link: "/products/fermkito",
         id: "1",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
@@ -48,6 +49,8 @@ const Aquaculture = () => {
 
   return (
     <>
+      <Head title="Aquaculture" description="Aquaculture" />
+
       <Header
         banner="/images/banners/species/aquaculture.webp"
         title="Aquaculture"

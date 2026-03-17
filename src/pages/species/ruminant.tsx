@@ -1,3 +1,4 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -34,8 +35,8 @@ const Ruminant = () => {
 
   return (
     <>
+      <Head title="Ruminant" description="Ruminant" />
       <Header banner="/images/banners/species/ruminant.webp" title="Ruminant" />
-
       <SpeciesOption data={data} />
     </>
   );

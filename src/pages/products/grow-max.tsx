@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const GrowMax = () => {
   return (
     <>
+      <Head title="Growmax" description="Growmax" />
+
       <Header
         banner="/images/banners/products/natural.webp"
         title="Natural Growth Promoters"

@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
-const Fermiko = () => {
+const Fermkito = () => {
   return (
     <>
+      <Head title="Fermkito" description="Fermkito" />
+
       <Header
         banner="/images/banners/products/natural.webp"
         title="Natural Growth Promoters"
@@ -55,4 +58,4 @@ const Fermiko = () => {
   );
 };
 
-export default Fermiko;
+export default Fermkito;

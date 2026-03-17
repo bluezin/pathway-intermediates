@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const GutHealthEnhancers = () => {
   return (
     <>
+      <Head title="Gut Health Enhancers" description="Gut Health Enhancers" />
+
       <Header
         banner="/images/banners/products/grains.webp"
         title="lorem umpis"

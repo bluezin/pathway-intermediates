@@ -1,9 +1,15 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const FunctionalFeedAdditives = () => {
   return (
     <>
+      <Head
+        title="Functional Feed Additives"
+        description="Functional Feed Additives"
+      />
+
       <Header
         banner="/images/banners/products/grains.webp"
         title="lorem impsu"

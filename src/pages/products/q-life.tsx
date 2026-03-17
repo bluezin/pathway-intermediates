@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const QLife = () => {
   return (
     <>
+      <Head title="Q-Life" description="Q-Life" />
+
       <Header
         banner="/images/banners/products/grains.webp"
         title="Gut Health Enhancers"

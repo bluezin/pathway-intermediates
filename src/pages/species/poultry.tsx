@@ -1,3 +1,4 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -49,8 +50,8 @@ const Poultry = () => {
           "Boar Power Max is cookie-type nutritional balanced supplement for boar performance. It contains L-Carnitine and Cr-picolinate to enhance boar performance.",
       },
       {
-        imgForTitle: "/images/products/logos2/fermiko.webp",
-        link: "/products/fermiko",
+        imgForTitle: "/images/products/logos2/fermkito.webp",
+        link: "/products/fermkito",
         id: "1",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
@@ -97,8 +98,8 @@ const Poultry = () => {
 
   return (
     <>
+      <Head title="Poultry" description="Poultry" />
       <Header banner="/images/banners/species/poultry.webp" title="Poultry" />
-
       <SpeciesOption data={data} />
     </>
   );

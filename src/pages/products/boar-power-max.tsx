@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const BoarPowerMax = () => {
   return (
     <>
+      <Head title="BoarPowerMax" description="BoarPowerMax" />
+
       <Header
         banner="/images/banners/products/spices.webp"
         title="Functional Feed Additives"

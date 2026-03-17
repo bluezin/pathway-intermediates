@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const ProbeBac = () => {
   return (
     <>
+      <Head title="ProBe-Bac" description="ProBe-Bac" />
+
       <Header
         banner="/images/banners/products/grains.webp"
         title="Functional Feed Additives"

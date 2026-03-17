@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const AcceleratorSolutions = () => {
   return (
     <>
+      <Head title="Accelerator Solutions" description="Accelerator Solutions" />
+
       <Header
         banner="/images/banners/products/condiments.webp"
         title="Lorem impsu"

@@ -1,9 +1,12 @@
+import Head from "@/components/atoms/head";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Lipidol = () => {
   return (
     <>
+      <Head title="Lipidol" description="Lipidol" />
+
       <Header
         banner="/images/banners/products/condiments.webp"
         title="Accelerator Solutions"
