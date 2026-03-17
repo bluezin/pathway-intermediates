@@ -21,7 +21,7 @@
   font-family: "GillSansLight Medium";
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/gill-sans-medium.ot') format('opentype');
+  src: url('/fonts/gill-sans-medium.otf') format('opentype');
 }
 
 @font-face {

@@ -73,7 +73,7 @@
   transition: all 0.5s
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   /* About */
   .about:hover .about__options {
     display: block;
