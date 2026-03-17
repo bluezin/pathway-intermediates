@@ -1,11 +1,9 @@
-import Image from "next/image";
 import styles from "./index.module.css";
 
 const BiometrixTemplate = () => {
   return (
     <section className={styles.container}>
       <h3 className={styles.title}>Start Your Experience</h3>
-      {/* <p className={styles.divider}></p> */}
 
       <p className={styles.description}>
         Lorem impsuLorem impsuLorem impsuLorem impsuLorem impsuLorem impsuLorem
@@ -27,9 +25,9 @@ const BiometrixTemplate = () => {
           >
             <g
               stroke="#126A83"
-              stroke-width="1.8"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <circle cx="12" cy="12" r="10" />
               <line x1="8" y1="15" x2="8" y2="11" />
@@ -56,9 +54,9 @@ const BiometrixTemplate = () => {
           >
             <g
               stroke="white"
-              stroke-width="1.7"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.7"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <circle cx="12" cy="12" r="10" />
 

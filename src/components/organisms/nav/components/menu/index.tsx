@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Social from "../social";
 import styles from "./index.module.css";
 
@@ -10,93 +10,142 @@ const Menu = ({
   setOpenMenu: (prop: boolean) => void;
 }) => {
   const [openOptions, setOpenOptions] = useState("");
+  const [isMobile, setIsMobile] = useState(false);
 
   const nav = [
     {
       title: "About",
       id: "about",
-      link: "/about",
+      linkDesktop: "/about",
+      linkMobile: "#",
       options: [
+        {
+          title: "We are pathway",
+          link: "/about",
+          id: "1",
+          className: styles.option__for__mobile,
+        },
         {
           title: "Mission & Vision",
           link: "/mission&vision",
-          id: "1",
+          id: "2",
         },
         {
           title: "History",
           link: "/history",
-          id: "2",
+          id: "3",
         },
         {
           title: "Employee Spotlight",
           link: "/employee-spotlight",
-          id: "3",
+          id: "4",
         },
       ],
     },
     {
       title: "Species",
-      link: "/species",
+      useLinkMobile: false,
+      linkDesktop: "/species",
+      linkMobile: "#",
       id: "species",
       options: [
         {
+          title: "Overview",
+          link: "/species",
+          className: styles.option__for__mobile,
+          id: "1",
+        },
+        {
           title: "Swine",
           link: "/species/swine",
-          id: "1",
+          id: "2",
         },
         {
           title: "Poultry",
           link: "/species/poultry",
-          id: "2",
+          id: "3",
         },
         {
           title: "Ruminant",
           link: "/species/ruminant",
-          id: "3",
+          id: "4",
         },
         {
           title: "Aquaculture",
           link: "/species/aquaculture",
-          id: "4",
+          id: "5",
         },
       ],
     },
     {
       title: "Product List",
       id: "productList",
-      link: "/products",
+      linkDesktop: "/products",
+      linkMobile: "#",
       options: [
+        {
+          title: "Overview",
+          link: "/products",
+          className: styles.option__for__mobile,
+          id: "1",
+        },
         {
           title: "Accelerator Solutions",
           link: "/products/categories/accelerator-solutions",
-          id: "1",
+          id: "2",
         },
         {
           title: "Gut Health Enhancers",
           link: "/products/categories/gut-health-enhancers",
-          id: "2",
+          id: "3",
         },
         {
           title: "Functional Feed Additives",
           link: "/products/categories/functional-feed-additives",
-          id: "3",
+          id: "4",
         },
       ],
     },
     {
       title: "Biometrix",
+      useLinkMobile: true,
       id: "Biometrix",
       options: [],
-      link: "/biometrix",
+      linkDesktop: "/biometrix",
+      linkMobile: "/biometrix",
     },
     {
       title: "Contact Us",
+      useLinkMobile: true,
       id: "contactUs",
       options: [],
-      link: "#contact-form",
+      linkDesktop: "#contact-form",
+      linkMobile: "#contact-form",
       onclick: () => setOpenMenu(false),
     },
   ];
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 900);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    const handleOptionsView = () => {
+      if (!openMenu) {
+        setOpenOptions("");
+      }
+    };
+
+    handleOptionsView();
+  }, [openMenu]);
 
   return (
     <ul
@@ -106,30 +155,36 @@ const Menu = ({
       {nav.map((item) => (
         <li className={`${styles.dropdown} ${styles[item.id]}`} key={item.id}>
           <a
-            {...(item.link && { href: item.link })}
+            href={isMobile ? item.linkMobile : item.linkDesktop}
             className={styles.dropdown__title}
             onClick={() => {
               if (item?.onclick) {
                 item.onclick();
                 return;
               }
-              setOpenOptions(item.id);
+              setOpenOptions(openOptions === item.id ? "" : item.id);
             }}
           >
             {item.title}
           </a>
 
-          <ul
-            className={`${styles.dropdown__options} ${
-              openOptions === item.id ? styles.dropdown__options__active : ""
-            } ${styles[item.id]}__options`}
-          >
-            {item.options.map((option) => (
-              <li key={option.id}>
-                <a href={option.link}>{option.title}</a>
-              </li>
-            ))}
-          </ul>
+          {item.options.length ? (
+            <ul
+              className={`${styles.dropdown__options} ${
+                openOptions === item.id ? styles.dropdown__options__active : ""
+              } ${styles[item.id]}__options`}
+            >
+              {item.options.map((option) => (
+                <li key={option.id}>
+                  <a href={option.link} className={option.className || ""}>
+                    {option.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            ""
+          )}
         </li>
       ))}
 
