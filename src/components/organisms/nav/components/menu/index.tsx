@@ -84,6 +84,12 @@ const Menu = ({
       ],
     },
     {
+      title: "Biometrix",
+      id: "Biometrix",
+      options: [],
+      link: "/biometrix",
+    },
+    {
       title: "Contact Us",
       id: "contactUs",
       options: [],

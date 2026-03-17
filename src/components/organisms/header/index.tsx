@@ -16,8 +16,8 @@ const Header = ({
       <div
         className={styles.banner}
         style={{
-          background: `url(${banner}) top center no-repeat`,
-          backgroundSize: "cover",
+          background: `url(${banner}) center center no-repeat`,
+          backgroundSize: "100%",
         }}
       ></div>
 

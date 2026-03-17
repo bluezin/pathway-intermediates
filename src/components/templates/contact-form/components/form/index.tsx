@@ -29,7 +29,10 @@ const Form = ({
       }}
       validationSchema={errorMessage}
       onSubmit={(values) => {
-        console.log(values);
+        window.open(
+          `mailto:global@pathway-intermediates.com?subject=${values.subject}&body=${values.message}, %0A - Full name: ${values.firstName} ${values.lastName} %0A - Country: ${values.country} %0A - Company: ${values.company}`,
+          "_blank",
+        );
       }}
     >
       {({
