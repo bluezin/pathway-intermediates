@@ -20,10 +20,9 @@ const Menu = ({
       linkMobile: "#",
       options: [
         {
-          title: "We are pathway",
+          title: "We are Pathway",
           link: "/about",
           id: "1",
-          className: styles.option__for__mobile,
         },
         {
           title: "Mission & Vision",

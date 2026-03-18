@@ -38,28 +38,28 @@ const Poultry = () => {
       {
         imgForTitle: "/images/products/logos2/growmax.webp",
         link: "/products/grow-max",
-        id: "1",
+        id: "2",
         description:
           "GrowMax is the organic chromium picolinate product for animal performance. It improves the reproductive performance and reduces stress in animals.",
       },
       {
         imgForTitle: "/images/products/logos2/boar.webp",
         link: "/products/boar-power-max",
-        id: "1",
+        id: "3",
         description:
           "Boar Power Max is cookie-type nutritional balanced supplement for boar performance. It contains L-Carnitine and Cr-picolinate to enhance boar performance.",
       },
       {
         imgForTitle: "/images/products/logos2/fermkito.webp",
         link: "/products/fermkito",
-        id: "1",
+        id: "4",
         description:
           "Fermkito is proven and patented fermentation product containing chitosan and chitosan oligosaccharides (COS).",
       },
       {
         imgForTitle: "/images/products/logos2/thermo.webp",
         link: "/products/thermo-rex",
-        id: "1",
+        id: "5",
         description:
           "ThermoRex is an all-in-one anti-stress solution developed by Pathway Intermediates that supports food-producing animals to overcome stress.",
       },
@@ -75,21 +75,21 @@ const Poultry = () => {
       {
         imgForTitle: "/images/products/logos2/coccilok.webp",
         link: "/products/coccilock",
-        id: "1",
+        id: "2",
         description:
           "CocciLock is eco-friendly anticoccidial product which ensuring constant growth performance. It also improves gut and farm environment and uniformity.",
       },
       {
         imgForTitle: "/images/products/logos2/qLife.webp",
         link: "/products/q-life",
-        id: "1",
+        id: "3",
         description:
           "Q-Life is a natural alternative solution to anticoccidials with proven results for coccidiosis control and animal growth improvement. It contains phytogenic ingredients that have been carefully selected and tested by Pathway Intermediates.",
       },
       {
         imgForTitle: "/images/products/logos2/genikan.webp",
         link: "/products/genikan",
-        id: "1",
+        id: "4",
         description:
           "Genikan is high-quality yeast culture for gastrointestinal health. It is new generation of Yeasture, which has been produced and supplied for more than 17 years.",
       },

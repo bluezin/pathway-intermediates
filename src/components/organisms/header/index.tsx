@@ -17,7 +17,7 @@ const Header = ({
         className={styles.banner}
         style={{
           background: `url(${banner}) center center no-repeat`,
-          backgroundSize: "100%",
+          backgroundSize: "cover",
         }}
       ></div>
 
@@ -33,11 +33,21 @@ const Header = ({
           </p>
 
           <div className={styles.hero__main__buttons}>
-            <button className={`button-primary ${styles.button}`}>
+            <button
+              className={`button-primary ${styles.button}`}
+              onClick={() => {
+                window.open("https://www.pathway-intermediates.com/", "_blank");
+              }}
+            >
               Go to Pathway
             </button>
             <span>or</span>
-            <button className={`button-secondary ${styles.button}`}>
+            <button
+              className={`button-secondary ${styles.button}`}
+              onClick={() => {
+                window.open("https://www.biomatrixintl.com/", "_blank");
+              }}
+            >
               Go to Biometrix
             </button>
           </div>

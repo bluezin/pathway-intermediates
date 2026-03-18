@@ -8,6 +8,15 @@
   text-align: center;
 }
 
+.imgForTitle {
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.5s;
+}
+
 .description {
   color: #ccc;
   margin-bottom: 40px;

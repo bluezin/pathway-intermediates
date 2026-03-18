@@ -34,7 +34,17 @@
   color: #fff;
   font-size: 42px;
   font-weight: bold;
+  opacity: 0;
   text-align: center;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .hero__main {
