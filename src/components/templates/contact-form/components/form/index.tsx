@@ -66,7 +66,7 @@ const Form = ({
                   setValues({ ...values, subject: value });
                 }}
                 onBlur={() => {
-                  setTouched({ subject: true });
+                  setTouched({ ...touched, subject: true });
                 }}
                 messageError={
                   touched.subject && errors.subject ? errors.subject : ""
@@ -79,7 +79,7 @@ const Form = ({
                 defaultValue={values.country}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ country: true });
+                  setTouched({ ...touched, country: true });
                 }}
                 messageError={
                   touched.country && errors.country ? errors.country : ""
@@ -94,7 +94,7 @@ const Form = ({
                 defaultValue={values.firstName}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ firstName: true });
+                  setTouched({ ...touched, firstName: true });
                 }}
                 messageError={
                   touched.firstName && errors.firstName ? errors.firstName : ""
@@ -107,7 +107,7 @@ const Form = ({
                 defaultValue={values.lastName}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ lastName: true });
+                  setTouched({ ...touched, lastName: true });
                 }}
                 messageError={
                   touched.lastName && errors.lastName ? errors.lastName : ""
@@ -122,7 +122,7 @@ const Form = ({
                 defaultValue={values.company}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ company: true });
+                  setTouched({ ...touched, company: true });
                 }}
                 messageError={
                   touched.company && errors.company ? errors.company : ""
@@ -135,7 +135,7 @@ const Form = ({
                 defaultValue={values.email}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ email: true });
+                  setTouched({ ...touched, email: true });
                 }}
                 messageError={touched.email && errors.email ? errors.email : ""}
               />
@@ -148,7 +148,7 @@ const Form = ({
                 defaultValue={values.message}
                 onChange={handleChange}
                 onBlur={() => {
-                  setTouched({ message: true });
+                  setTouched({ ...touched, message: true });
                 }}
                 messageError={
                   touched.message && errors.message ? errors.message : ""
