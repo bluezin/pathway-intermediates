@@ -31,6 +31,13 @@
   src: url('/fonts/gill-sans-semi-bold.ttf') format('opentype');
 }
 
+@font-face {
+  font-family: "GillSansLight Light";
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/light.otf') format('opentype');
+}
+
 body {
   font-family: "GillSansLight Regular", Arial, sans-serif;
   letter-spacing: 0 !important;

@@ -15,8 +15,9 @@
 
 .container {
   padding-top: 140px;
-  width: 50%;
-  margin: auto auto 130px;
+  padding-bottom: 100px;
+  width: 1100px;
+  margin: auto;
 }
 
 .first__content {
@@ -27,20 +28,116 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+.sub__title {
+  color: #006a8f;
+  font-size: 28px;
+  font-family: "GillSansLight Bold", sans-serif;
+  margin: 0px 0px 10px;
+}
+
+.sub__text {
+  color: #171717;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.divide__content {
+  display: flex;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.polygon {
+  margin-bottom: 30px;
+}
+
+.container__more__information {
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 1220px) {
   .container {
-    padding-top: 90px;
-    width: 90%;
+    width: 900px;
+  }
+
+  .women {
+    width: 470px;
+    height: 580px;
+    margin-top: 60px;
+  }
+
+  .laboratory {
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+  }
+
+  .divide__content {
+    margin-top: 50px;
+  }
+
+  .container__more__information {
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+
+  .women {
+    display: none;
+  }
+
+  .laboratory {
+    display: none;
+  }
+
+  .laboratory__equipment {
+    display: none;
+  }
+
+  .polygon {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+  }
+
   .title {
     font-size: 25px;
   }
 
   .divider {
     margin: 15px 0px 15px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .sub__text {
+    font-size: 20px;
+  }
+
+  .sub__title {
+    font-size: 24px;
+  }
+
+  .polygon img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .polygon img {
+    width: 250px;
+    height: 250px;
   }
 }
 
