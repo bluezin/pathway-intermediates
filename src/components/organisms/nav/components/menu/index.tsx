@@ -39,6 +39,11 @@ const Menu = ({
           link: "/employee-spotlight",
           id: "4",
         },
+        {
+          title: "Location",
+          link: "/map",
+          id: "5",
+        },
       ],
     },
     {
@@ -106,12 +111,12 @@ const Menu = ({
       ],
     },
     {
-      title: "Biometrix",
+      title: "BioMatrix",
       useLinkMobile: true,
-      id: "Biometrix",
+      id: "BioMatrix",
       options: [],
-      linkDesktop: "/biometrix",
-      linkMobile: "/biometrix",
+      linkDesktop: "/biomatrix",
+      linkMobile: "/biomatrix",
     },
     {
       title: "Contact Us",

@@ -23,7 +23,7 @@
 }
 
 .input {
-  height: 30px;
+  height: 40px;
   width: 100%;
   border: 1px solid rgb(92, 160, 183);
   background-color: rgb(33, 125, 157);
@@ -31,6 +31,8 @@
   padding: 4px 8px;
   box-sizing: border-box;
   cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 .container__input {
@@ -39,7 +41,7 @@
 
 .container__input button {
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 5px;
   cursor: pointer;
   background-color: transparent;
@@ -48,10 +50,10 @@
 }
 
 .label {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .messageError {

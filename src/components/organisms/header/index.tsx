@@ -25,7 +25,7 @@ const Header = ({
 
       {bannerMain && (
         <div className={styles.hero__main}>
-          <h1>Pathway Vs Biometrix</h1>
+          <h1>Pathway Vs BioMatrix</h1>
           <p>
             lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
@@ -48,7 +48,7 @@ const Header = ({
                 window.open("https://www.biomatrixintl.com/", "_blank");
               }}
             >
-              Go to Biometrix
+              Go to BioMatrix
             </button>
           </div>
         </div>

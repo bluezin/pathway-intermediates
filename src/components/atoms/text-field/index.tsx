@@ -18,7 +18,7 @@ const TextField = ({
   return (
     <div>
       <label className={styles.label} htmlFor={id}>
-        <p style={{ paddingBottom: "10px", paddingTop: "10px" }}>{label}</p>
+        <p style={{ paddingBottom: "10px", paddingTop: "15px" }}>{label}</p>
 
         <input
           defaultValue={defaultValue}

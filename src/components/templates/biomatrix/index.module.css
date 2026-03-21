@@ -95,8 +95,6 @@
 
 .card__pathway__title {
   font-size: 25px;
-  margin-bottom: 20px;
-  margin-top: 10px;
   color: #FFFFFF;
   font-family: "GillSansLight SemiBold", sans-serif;
 }
@@ -110,7 +108,13 @@
   font-size: 20px;
   margin-top: 30px;
   cursor: pointer;
+}
 
+.biomatrix__logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 1130px) {

@@ -158,7 +158,7 @@ const Form = ({
 
             <div style={{ textAlign: "center" }}>
               <button
-                className={styles.button}
+                className={`button-secondary ${styles.button}`}
                 onClick={() => handleSubmit()}
                 type="button"
                 disabled={!isValid}

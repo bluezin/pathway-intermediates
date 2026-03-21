@@ -1,34 +1,34 @@
 .container__inputs {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 50px;
-  width: 590px;
+  gap: 30px;
+  width: 500px;
   margin-bottom: 5px;
 }
 
 .container__textarea {
-  width: 590px;
+  width: 500px;
 }
 
 .button {
-  background-color: #007eaa;
-  border-radius: 10px;
-  padding: 15px 30px;
-  border: none;
-  color: #fff;
-  border: 1px solid rgb(0, 81, 109);
-  cursor: pointer;
   margin-top: 35px;
+}
+
+.container__form {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.25);
 }
 
 @media screen and (max-width: 1140px) {
   .container__inputs {
-    width: 470px;
+    width: 400px;
     gap: 20px;
   }
 
   .container__textarea {
-    width: 470px;
+    width: 400px;
     margin: auto;
   }
 }

@@ -3,18 +3,19 @@
 }
 
 .input {
-  height: 30px;
+  height: 40px;
   width: 100%;
   border: 1px solid rgb(92, 160, 183);
   background-color: rgb(33, 125, 157);
   color: #fff;
   padding: 4px 8px;
   box-sizing: border-box;
-  font-size: 14px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .label {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
