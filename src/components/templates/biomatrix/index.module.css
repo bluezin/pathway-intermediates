@@ -43,6 +43,7 @@
   height: 250px;
   width: 300px;
   cursor: pointer;
+  display: block;
 }
 
 .card__biometrix:hover {
@@ -52,6 +53,7 @@
 
 .card__biometrix__description {
   font-size: 17px;
+  color: black;
 }
 
 .card__biometrix__title {
@@ -81,6 +83,8 @@
   text-align: center;
   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
   cursor: pointer;
+  display: block;
+  position: relative;
 }
 
 .card__pathway:hover {
@@ -110,7 +114,15 @@
   cursor: pointer;
 }
 
-.biomatrix__logo {
+.card__pathway__logo {
+  width: 190px !important;
+  height: auto !important;
+  position: relative !important;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.card__biomatrix__logo {
   width: 200px;
   height: auto;
   margin-bottom: 20px;

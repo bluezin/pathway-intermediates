@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 const BiomatrixTemplate = () => {
   return (
@@ -16,56 +17,46 @@ const BiomatrixTemplate = () => {
       </p>
 
       <div className={styles.container__cards}>
-        <div className={styles.card__biometrix}>
+        <Link
+          href={"https://www.biomatrixintl.com/"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card__biometrix}
+        >
           <Image
             src="/images/biomatrix-logo.svg"
             alt="biomatirx-logo"
             width={30}
             height={50}
-            className={styles.biomatrix__logo}
+            className={styles.card__biomatrix__logo}
           />
 
-          {/* <h2 className={styles.card__biometrix__title}>Biomatrix</h2> */}
           <p className={styles.card__biometrix__description}>
             lorem impus lorem impislorem impus lorem impislorem impus lorem
             impis
           </p>
           <button className={styles.card__biometrix__button}>More</button>
-        </div>
+        </Link>
 
-        <div className={styles.card__pathway}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="45"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <g
-              stroke="white"
-              strokeWidth="1.7"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="12" cy="12" r="10" />
-
-              <path d="M12 2C8 6 8 18 12 22" />
-              <path d="M12 2C16 6 16 18 12 22" />
-
-              <path d="M2 12h20" />
-              <path d="M4 7c4 2 12 2 16 0" />
-              <path d="M4 17c4-2 12-2 16 0" />
-            </g>
-          </svg>
-
-          <h2 className={styles.card__pathway__title}>Pathway</h2>
+        <Link
+          href={"https://www.pathway-intermediates.com/"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card__pathway}
+        >
+          <Image
+            src="/images/pathway-logo.webp"
+            alt="biomatirx-logo"
+            fill
+            className={styles.card__pathway__logo}
+          />
           <p className={styles.card__pathway__description}>
             lorem impus lorem impislorem impus lorem impislorem impus lorem
             impis
           </p>
 
           <button className={styles.card__pathway__button}>More</button>
-        </div>
+        </Link>
       </div>
     </section>
   );
