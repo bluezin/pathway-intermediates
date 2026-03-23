@@ -26,7 +26,7 @@ const Fermkito = () => {
             {
               id: "2",
               title: "Bringing natural marine ingredients",
-              img: "/products/fermkito-info.webp",
+              img: "/images/products/fermkito-info.webp",
               description:
                 "Marine crustacean such as lobsters, crabs and shrimp are flavorful protein source that have been popular throughout history. Crustacean has another benefit of providing good source of bio-functional ingredients, such as chitosan and chitosan oligosaccharides (COS).<br><br>Chitosan and COS are derived from chitin, which is abundant in marine crustacean shells. They possess antibacterial, prebiotic, growth promoting and cholesterol-lowering activities. As sustainable ingredients found in nature, both chitosan and COS can be applied in animals to improve their performance and productivity without causing any resistance or residue problems that are frequently associated with drug use.",
             },

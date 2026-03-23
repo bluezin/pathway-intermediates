@@ -27,7 +27,7 @@ const Genikan = () => {
             {
               id: "2",
               title: "Optimized fermentation process to maximize benefits",
-              img: "/products/genikan-info.webp",
+              img: "/images/products/genikan-info.webp",
               description:
                 "Two-step fermentation process is applied for the production of Genikan. The first step, Liquid Fermentation, is to maximize the microbial growth of Saccharomyces cerevisiae and the second step, Solid-State Fermentation, is to optimize the production of functional metabolites. Also, the unique flavor of Genikan has the effects on improving the palatability of the feed.",
             },
