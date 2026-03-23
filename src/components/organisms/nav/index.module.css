@@ -18,10 +18,6 @@
   padding: 10px 25px 10px 3%;
 }
 
-.link__logo {
-  z-index: 20;
-}
-
 .open__menu {
   background-color: transparent;
   border: none;
@@ -33,7 +29,6 @@
   justify-content: center;
   transition: all 0.4s;
   padding: 0;
-  z-index: 20;
   position: relative;
   margin: 0;
 }
@@ -70,6 +65,7 @@
   .sub__nav__scroll {
     background-color: #000;
     opacity: 0.9;
+    padding: 10px 30px;
   }
 
   .nav__scroll {

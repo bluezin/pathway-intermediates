@@ -44,9 +44,10 @@
     right: 0;
     background-color: #006a8f;
     padding: 40px 0px;
-    z-index: 100;
+    z-index: 20;
     overflow-y: auto;
     padding-bottom: 30px;
+    border-radius: 0;
   }
 
   .container__form::before {

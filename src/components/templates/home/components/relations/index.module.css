@@ -16,6 +16,7 @@
   box-sizing: content-box;
   color: #fff;
   position: relative;
+  z-index: -1;
 }
 
 .content p {
