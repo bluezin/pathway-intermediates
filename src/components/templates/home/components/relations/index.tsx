@@ -25,9 +25,7 @@ const Relations = () => {
       <div className={styles.content}>
         <div className={`${styles.productList} ${styles.banner}`} />
         <p>Have you seen our products?</p>
-        <strong>
-          Browse our product range and find the right solution for your needs.
-        </strong>
+        <strong>Explore our solutions designed to meet your needs.</strong>
         <Link href={"/products"} className={`button-secondary`}>
           PRODUCT LIST
         </Link>

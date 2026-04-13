@@ -90,6 +90,10 @@
   align-items: center;
 }
 
+.button {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .hero__no__main {
     top: 43%;
@@ -148,7 +152,7 @@
   }
 
   .hero__main {
-    top: 28%;
+    top: 30%;
   }
 
   .banner {

@@ -33,23 +33,12 @@ const Header = ({
           </p>
 
           <div className={styles.hero__main__buttons}>
-            <button
-              className={`button-primary ${styles.button}`}
-              onClick={() => {
-                window.open("https://www.pathway-intermediates.com/", "_blank");
-              }}
-            >
-              Go to Pathway
-            </button>
-            <span>or</span>
-            <button
+            <a
               className={`button-secondary ${styles.button}`}
-              onClick={() => {
-                window.open("https://www.biomatrixintl.com/", "_blank");
-              }}
+              href="#pathwayVSbiomatrix"
             >
-              Go to BioMatrix
-            </button>
+              Explore
+            </a>
           </div>
         </div>
       )}

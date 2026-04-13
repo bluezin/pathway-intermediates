@@ -22,6 +22,7 @@
 .content p {
   font-size: 35px;
   z-index: 4;
+  padding: 0px 15px;
 }
 
 .content strong {
@@ -29,6 +30,7 @@
   margin-bottom: 20px;
   display: block;
   z-index: 4;
+  padding: 0px 20px;
 }
 
 .content a {
