@@ -10,7 +10,7 @@ const CompanionAnimal = () => {
           <Image
             src={"/images/pathway-home.png"}
             alt="pathway"
-            width={390}
+            width={380}
             height={350}
           />
           <button
@@ -27,9 +27,9 @@ const CompanionAnimal = () => {
 
         <div style={{ background: "#f3fff5" }} className={styles.card}>
           <Image
-            src={"/images/biomatrix-home.webp"}
+            src={"/images/biomatrix-home.png"}
             alt="pathway"
-            width={390}
+            width={380}
             height={350}
           />
           <button
