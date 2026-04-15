@@ -22,7 +22,7 @@ const ProductsTemplate = () => {
             title: "Functional Feed Additives",
             id: "functional-feed-additives",
             link: "/products/categories/functional-feed-additives",
-            bannerUrl: "/images/banners/products/grains.webp",
+            bannerUrl: "/images/banners/products/spices.webp",
           },
         ]}
         description="lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"

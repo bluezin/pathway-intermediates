@@ -11,7 +11,7 @@ const FunctionalFeedAdditives = () => {
       />
 
       <Header
-        banner="/images/banners/products/grains.webp"
+        banner="/images/banners/products/spices.webp"
         title="lorem impsu"
       />
 
@@ -32,7 +32,7 @@ const FunctionalFeedAdditives = () => {
           },
           {
             imgForTitle: "/images/products/logos2/mycoSecure.webp",
-            link: "/products/mycoSecure",
+            link: "/products/mycosecure",
             id: "3",
             description: "MycoSecure",
           },

@@ -18,6 +18,26 @@ const CompanionAnimalTemplate = () => {
 
       <div className={styles.container__cards}>
         <Link
+          href={"https://www.pathway-intermediates.com/"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card__pathway}
+        >
+          <Image
+            src="/images/pathway-logo.webp"
+            alt="biomatirx-logo"
+            fill
+            className={styles.card__pathway__logo}
+          />
+          <p className={styles.card__pathway__description}>
+            lorem impus lorem impislorem impus lorem impislorem impus lorem
+            impis
+          </p>
+
+          <button className={styles.card__pathway__button}>More</button>
+        </Link>
+
+        <Link
           href={"https://www.biomatrixintl.com/"}
           target="_blank"
           rel="noopener noreferrer"
@@ -36,26 +56,6 @@ const CompanionAnimalTemplate = () => {
             impis
           </p>
           <button className={styles.card__biometrix__button}>More</button>
-        </Link>
-
-        <Link
-          href={"https://www.pathway-intermediates.com/"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.card__pathway}
-        >
-          <Image
-            src="/images/pathway-logo.webp"
-            alt="biomatirx-logo"
-            fill
-            className={styles.card__pathway__logo}
-          />
-          <p className={styles.card__pathway__description}>
-            lorem impus lorem impislorem impus lorem impislorem impus lorem
-            impis
-          </p>
-
-          <button className={styles.card__pathway__button}>More</button>
         </Link>
       </div>
     </section>
