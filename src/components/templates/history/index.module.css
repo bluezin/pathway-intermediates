@@ -22,7 +22,7 @@
 
 .container {
   padding-top: 140px;
-  width: 70%;
+  width: 1100px;
   margin: auto auto 130px;
 }
 
@@ -33,9 +33,14 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .container {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
     padding-top: 90px;
   }
 
