@@ -113,7 +113,7 @@ const Menu = ({
     {
       title: "Companion Animal",
       useLinkMobile: true,
-      id: "companion-animal",
+      id: "companionAnimal",
       options: [],
       linkDesktop: "/companion-animal",
       linkMobile: "/companion-animal",

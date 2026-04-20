@@ -42,7 +42,7 @@
   padding-top: 30px !important;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
   .nav {
     font-size: 23px;
     margin-left: 0px;

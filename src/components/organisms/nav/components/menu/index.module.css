@@ -73,6 +73,11 @@
   transition: all 0.5s
 }
 
+.companionAnimal .dropdown__title:hover {
+  color: skyblue !important;
+  transition: all 0.5s
+}
+
 @media screen and (min-width: 901px) {
   /* About */
   .about:hover .about__options {
@@ -90,7 +95,7 @@
   }
 }
 
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 1035px) {
   .menu {
     gap: 15px;
   }
@@ -100,7 +105,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 954px) {
+  .menu {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 930px) {
   .menu {
     display: none;
     position: fixed;
