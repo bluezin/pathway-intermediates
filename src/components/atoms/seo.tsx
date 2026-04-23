@@ -1,6 +1,6 @@
 import HeadNext from "next/head";
 
-const Head = ({
+const Seo = ({
   title,
   description,
 }: {
@@ -17,4 +17,4 @@ const Head = ({
   );
 };
 
-export default Head;
+export default Seo;
