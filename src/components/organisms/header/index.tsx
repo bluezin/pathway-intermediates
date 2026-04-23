@@ -50,7 +50,14 @@ const Header = ({
               width={205}
               height={80}
             />
-            <button className={styles.button__pathway}>ENTER SITE</button>
+            <button
+              className={styles.button__pathway}
+              onClick={() => {
+                window.open("https://www.pathway-intermediates.com/", "_blank");
+              }}
+            >
+              ENTER SITE
+            </button>
           </div>
 
           <div className={styles.vs}>
@@ -64,7 +71,14 @@ const Header = ({
               width={220}
               height={80}
             />
-            <button className={styles.button__biomatrix}>ENTER SITE</button>
+            <button
+              className={styles.button__biomatrix}
+              onClick={() => {
+                window.open("https://www.biomatrixintl.com/", "_blank");
+              }}
+            >
+              ENTER SITE
+            </button>
           </div>
         </div>
       )}
