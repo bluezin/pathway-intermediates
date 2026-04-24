@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Coccilock = () => {
   return (
     <>
-      <Head title="CocciLock" description="CocciLock" />
+      <Seo
+        title="CocciLock - Pathway"
+        description="CocciLock is an eco-friendly anticoccidial solution designed to support growth performance, improve gut health, and enhance farm environment and uniformity."
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

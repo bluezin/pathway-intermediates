@@ -1,4 +1,4 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -84,7 +84,7 @@ const Swine = () => {
 
   return (
     <>
-      <Head title="Swine" description="Swine" />
+      <Seo title="Swine - Pathway" description="" />
 
       <Header banner="/images/banners/species/swine.webp" title="Swine" />
 

@@ -1,4 +1,4 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -98,7 +98,7 @@ const Poultry = () => {
 
   return (
     <>
-      <Head title="Poultry" description="Poultry" />
+      <Seo title="Poultry - Pathway" description="" />
       <Header banner="/images/banners/species/poultry.webp" title="Poultry" />
       <SpeciesOption data={data} />
     </>

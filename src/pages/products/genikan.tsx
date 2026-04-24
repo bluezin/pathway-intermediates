@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Genikan = () => {
   return (
     <>
-      <Head title="Genikan" description="Genikan" />
+      <Seo
+        title="Genikan - Pathway"
+        description="Genikan is a high-quality yeast culture designed to support gastrointestinal health and improve gut function in animal nutrition."
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

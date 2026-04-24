@@ -1,11 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const AcceleratorSolutions = () => {
   return (
     <>
-      <Head title="Accelerator Solutions" description="Accelerator Solutions" />
+      <Seo title="Accelerator Solutions - Pathway" description="" />
 
       <Header
         banner="/images/banners/products/condiments.webp"

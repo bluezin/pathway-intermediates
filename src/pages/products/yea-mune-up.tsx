@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Head from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const YeaMuneUp = () => {
   return (
     <>
-      <Head title="YeaMune-UP" description="YeaMune-UP" />
+      <Head
+        title="YeaMune-UP - Pathway"
+        description="YeaMune-UP is an immune support solution produced with S. c. boulardii, rich in beta-glucan, MOS, and nutrients to support animal health.uce"
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

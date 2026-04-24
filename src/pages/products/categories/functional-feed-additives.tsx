@@ -1,14 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const FunctionalFeedAdditives = () => {
   return (
     <>
-      <Head
-        title="Functional Feed Additives"
-        description="Functional Feed Additives"
-      />
+      <Seo title="Functional Feed Additives - Pathway" description="" />
 
       <Header
         banner="/images/banners/products/spices.webp"

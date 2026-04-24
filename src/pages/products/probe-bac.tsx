@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Head from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const ProbeBac = () => {
   return (
     <>
-      <Head title="ProBe-Bac" description="ProBe-Bac" />
+      <Head
+        title="ProBe-Bac - Pathway"
+        description="ProBe-Bac is a bacteriophage-based solution designed to target specific poultry and swine diseases, supporting animal health and disease control."
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

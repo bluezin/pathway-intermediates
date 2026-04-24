@@ -1,11 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductsTemplate from "@/components/templates/products";
 
 const Products = () => {
   return (
     <>
-      <Head title="Products" description="Products" />
+      <Seo title="Products - Pathway" description="" />
       <Header banner="/images/banners/banner-products.webp" title="Products" />
       <ProductsTemplate />
     </>

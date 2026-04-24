@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Lipidol = () => {
   return (
     <>
-      <Head title="Lipidol" description="Lipidol" />
+      <Seo
+        title="Lipidol - Pathway"
+        description="Lipidol is an absorption accelerator containing concentrated lysophospholipids, designed to support nutrient absorption and improve livestock performance."
+      />
 
       <Header
         banner="/images/banners/products/condiments.webp"

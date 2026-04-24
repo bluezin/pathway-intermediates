@@ -1,11 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import CategoriesOption from "@/components/templates/products/components/categories-option";
 
 const GutHealthEnhancers = () => {
   return (
     <>
-      <Head title="Gut Health Enhancers" description="Gut Health Enhancers" />
+      <Seo title="Gut Health Enhancers - Pathway" description="" />
 
       <Header
         banner="/images/banners/products/grains.webp"

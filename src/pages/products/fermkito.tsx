@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Fermkito = () => {
   return (
     <>
-      <Head title="Fermkito" description="Fermkito" />
+      <Seo
+        title="Fermkito - Pathway"
+        description="Fermkito is a fermented chitosan and COS product developed through advanced fermentation technology to support animal nutrition and bioavailability."
+      />
 
       <Header
         banner="/images/banners/products/natural.webp"

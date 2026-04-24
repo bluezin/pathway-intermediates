@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Head from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const QLife = () => {
   return (
     <>
-      <Head title="Q-Life" description="Q-Life" />
+      <Head
+        title="Q-Life - Pathway"
+        description="Q-Life is a phytogenic solution designed as a natural alternative to anticoccidials, supporting coccidiosis control and animal growth performance."
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

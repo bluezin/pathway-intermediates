@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const GrowMax = () => {
   return (
     <>
-      <Head title="Growmax" description="Growmax" />
+      <Seo
+        title="GrowMax - Pathway"
+        description="GrowMax is an organic chromium picolinate product designed to support animal performance, improve reproductive performance, and reduce stress in animals."
+      />
 
       <Header
         banner="/images/banners/products/natural.webp"

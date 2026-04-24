@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const BoarPowerMax = () => {
   return (
     <>
-      <Head title="BoarPowerMax" description="BoarPowerMax" />
+      <Seo
+        title="Boar Power Max - Pathway"
+        description="Boar Power Max is a cookie-type nutritional supplement designed to enhance boar performance, containing L-Carnitine and chromium picolinate."
+      />
 
       <Header
         banner="/images/banners/products/spices.webp"

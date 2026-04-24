@@ -1,4 +1,4 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import SpeciesOption from "@/components/templates/species/components/species-option";
 
@@ -49,7 +49,7 @@ const Aquaculture = () => {
 
   return (
     <>
-      <Head title="Aquaculture" description="Aquaculture" />
+      <Seo title="Aquaculture - Pathway" description="" />
 
       <Header
         banner="/images/banners/species/aquaculture.webp"

@@ -1,11 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Gromega = () => {
   return (
     <>
-      <Head title="Gromega" description="gromega" />
+      <Seo title="Gromega - Pathway" description="" />
 
       <Header
         banner="/images/banners/products/spices.webp"

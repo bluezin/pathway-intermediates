@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Endopower = () => {
   return (
     <>
-      <Head title="Endopower" description="Endopower" />
+      <Seo
+        title="Endo-Power - Pathway"
+        description="Endo-Power is a digestion accelerator with optimized enzymes for corn-soybean diets, targeting NSPs to support efficient nutrient breakdown."
+      />
 
       <Header
         banner="/images/banners/products/condiments.webp"

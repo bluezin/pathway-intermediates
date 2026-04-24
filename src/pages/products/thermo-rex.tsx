@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Head from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const ThermoRex = () => {
   return (
     <>
-      <Head title="ThermoRex" description="ThermoRex" />
+      <Head
+        title="ThermoRex - Pathway"
+        description="ThermoRex is an anti-stress solution designed to support food-producing animals in managing stress and maintaining performance."
+      />
 
       <Header
         banner="/images/banners/products/grains.webp"

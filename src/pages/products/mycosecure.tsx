@@ -1,11 +1,11 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Mycosecure = () => {
   return (
     <>
-      <Head title="Mycosecure" description="Mycosecure" />
+      <Seo title="MycoSecure - Pathway" description="" />
 
       <Header
         banner="/images/banners/products/spices.webp"

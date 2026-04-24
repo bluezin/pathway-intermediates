@@ -1,11 +1,14 @@
-import Head from "@/components/atoms/head";
+import Seo from "@/components/atoms/seo";
 import Header from "@/components/organisms/header";
 import ProductOptions from "@/components/templates/products/components/products-option";
 
 const Endophos = () => {
   return (
     <>
-      <Head title="Endophos" description="Endophos" />
+      <Seo
+        title="Endo-Phos - Pathway"
+        description="Endo-Phos is a phytase that improves phosphorus and nutrient bioavailability, supporting efficient feed utilization and reducing phosphorus loss."
+      />
 
       <Header
         banner="/images/banners/products/natural.webp"
