@@ -1,7 +1,7 @@
 import Relations from "./components/relations";
 import Notices from "./components/notices";
 
-const HomeTempalte = () => {
+const SubHomeTemplate = () => {
   return (
     <section>
       <Notices />
@@ -10,4 +10,4 @@ const HomeTempalte = () => {
   );
 };
 
-export default HomeTempalte;
+export default SubHomeTemplate;

@@ -13,71 +13,42 @@ const Header = ({
 }) => {
   return (
     <section className={styles.header}>
-      {bannerMain ? (
-        <div className={styles.banner__main}>
-          <Image
-            src={"/images/banners/banner-main-part-1.webp"}
-            alt="banner-main-part-1"
-            width={400}
-            height={300}
-          />
-          <Image
-            src={"/images/banners/banner-main-part-2.webp"}
-            alt="banner-main-part-1"
-            width={400}
-            height={300}
-            className={styles.banner__main__img__2}
-          />
-        </div>
-      ) : (
-        <div
-          className={styles.banner}
-          style={{
-            background: `url(${banner}) center center no-repeat`,
-            backgroundSize: "cover",
-          }}
-        ></div>
-      )}
+      <div
+        className={styles.banner}
+        style={{
+          background: `url(${banner}) center center no-repeat`,
+          backgroundSize: "cover",
+        }}
+      ></div>
 
       <Nav />
 
       {bannerMain && (
-        <div className={styles.container__cards}>
-          <div className={styles.card}>
-            <Image
-              src="/images/pathway-logo-2.webp"
-              alt="pathway-logo-2"
-              width={205}
-              height={80}
-            />
+        <div className={styles.hero__main}>
+          <h1>Pathway Vs BioMatrix</h1>
+          <p>
+            lorem Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+            Ipsum Lorem Ipsum Lorem Ipsum
+          </p>
+
+          <div className={styles.hero__main__buttons}>
             <button
-              className={styles.button__pathway}
+              className={`button-primary ${styles.button}`}
               onClick={() => {
                 window.open("https://www.pathway-intermediates.com/", "_blank");
               }}
             >
-              ENTER SITE
+              Go to Pathway
             </button>
-          </div>
-
-          <div className={styles.vs}>
-            <p>VS</p>
-          </div>
-
-          <div className={styles.card}>
-            <Image
-              src="/images/biomatrix-logo.svg"
-              alt="pathway-logo-2"
-              width={220}
-              height={80}
-            />
+            <span>or</span>
             <button
-              className={styles.button__biomatrix}
+              className={`button-secondary ${styles.button}`}
               onClick={() => {
                 window.open("https://www.biomatrixintl.com/", "_blank");
               }}
             >
-              ENTER SITE
+              Go to BioMatrix
             </button>
           </div>
         </div>
