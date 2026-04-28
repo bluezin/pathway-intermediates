@@ -38,7 +38,7 @@ const Nav = () => {
       <div
         className={`${styles.sub__nav} ${openMenu ? styles.sub__nav__for__open__menu : ""} ${scroll ? styles.sub__nav__scroll : ""}`}
       >
-        <Link href="/" className={styles.link__logo}>
+        <Link href="/home" className={styles.link__logo}>
           <Image
             src="/images/pwi-logo-25.png"
             alt="logo"
