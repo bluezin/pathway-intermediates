@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Home - Pathway"
+        title="Home - Pathway US"
         description="Learn about Pathway Intermediates, a research-driven animal nutrition company delivering innovative feed additive solutions through advanced R&D and global expertise."
       />
       <Header banner="/images/banners/banner-main.webp" bannerMain />
