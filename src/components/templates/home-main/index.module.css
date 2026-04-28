@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .content {
@@ -9,10 +10,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   transition: all 0.5s ease;
   flex: 1;
+  cursor: pointer;
   height: 100vh;
+  overflow: hidden;
 }
 
 .content:hover {
@@ -110,7 +112,7 @@
   background-image: url("/images/home-main-part-2.webp");
 }
 
-.img__first::before {
+.img::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -142,11 +144,11 @@
   letter-spacing: 0.04em;
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  z-index: 3;
+  bottom: 0;
   right: 0;
   margin: auto;
+  z-index: 3;
   pointer-events: none;
   flex-shrink: 0;
 }
@@ -168,6 +170,10 @@
   .card {
     min-width: 40%;
     gap: 24px;
+  }
+
+  .content:hover {
+    flex: 1;
   }
 }
 
