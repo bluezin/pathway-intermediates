@@ -154,11 +154,22 @@
   flex-shrink: 0;
 }
 
-@media screen and (max-width: 1080px) {
+@media (max-width: 1080px) and (max-height: 899px) {
   .card {
     min-width: 70%;
     box-sizing: border-box;
     padding: 30px 30px 34px;
+  }
+}
+
+@media (max-width: 1100px) and (min-height: 900px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .content:hover {
+    flex: 1;
   }
 }
 
@@ -178,9 +189,10 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .card {
     width: 82%;
+    box-sizing: border-box;
     padding: 28px 28px 32px;
   }
 
