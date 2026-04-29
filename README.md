@@ -147,6 +147,88 @@ Each object must include:
   Must be located in: `/images/banners/species`
   Example: `/images/banners/species/aquaculture.webp`
 
+
+## ➕ Add a New Species Page (`/species/[name]`)
+
+To create a new species page, follow these steps:
+
+---
+
+### 1. Create the page file
+
+Go to:
+
+`src/pages/species/`
+
+Create a new file using the species name.
+
+> ⚠️ The file name **must match** the `link` used in the species card (explained above).
+
+---
+
+### 2. Use an existing file as template
+
+You can copy an existing example, such as:
+
+`src/pages/species/ruminant.tsx`
+
+Rename it according to your new species.
+
+---
+
+### 3. Update the component content
+
+#### ✅ Update the name
+
+Replace all occurrences of `Ruminant` with your new species name.
+
+---
+
+#### ✅ Update SEO
+
+Inside the SEO configuration:
+
+- Update the `title`
+- Update the `description`
+
+> ⚠️ The description should be meaningful and optimized for SEO.
+
+---
+
+#### ✅ Update the Header
+
+```jsx
+<Header
+  banner="/images/banners/species/ruminant.webp"
+  title="Ruminant"
+/>
+```
+
+Modify:
+
+banner → Correct image path
+title → Species name
+
+📌 Images must be located in:
+/images/banners/species/
+
+📌 Use .webp format (lighter than .png)
+
+✅ Update the data
+
+Replace the existing data with the correct information for the new species.
+
+Example:
+```ts
+{
+  imgForTitle: "/images/products/logos2/thermo.webp",
+  link: "/products/thermo-rex",
+  id: "1",
+  description:
+    "ThermoRex is an all-in-one anti-stress solution developed by Pathway Intermediates that supports food-producing animals to overcome stress.",
+}
+```
+
 ## ✅ Notes
 
 - Follow atomic design principles when adding new components.
