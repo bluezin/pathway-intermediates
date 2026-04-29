@@ -55,7 +55,7 @@
 
 .card button {
   color: white;
-  font-family: "GillSansLight Medium", sans-serif;
+  font-family: "GillSansLight SemiBold", sans-serif;
   border-radius: 999px;
   font-size: 0.875rem;
   border: none;
@@ -138,8 +138,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "GillSansLight SemiBold", sans-serif;
-  font-size: 1.20rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
   color: #1a1a1a;
   letter-spacing: 0.04em;
   position: absolute;
