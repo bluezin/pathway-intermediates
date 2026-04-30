@@ -78,21 +78,13 @@ More complex UI sections:
 - `home-main` → Main homepage
 - `map`
 - `mission&vision` → Mission and vision
-
----
-
-### 📦 Products (`src/templates/products/`)
-
-- `index` → Main products page
-- `ProductsOption`
-- `CategoriesOption`
-
----
-
-### 🐾 Species (`src/templates/species/`)
-
-- `index` → Main species page
-- `SpeciesOption`
+- `products/`:
+  - `index` → Main products page
+  - `ProductsOption`
+  - `CategoriesOption`
+- `species/`
+  - `index` → Main species page
+  - `SpeciesOption`
 
 ---
 
@@ -100,13 +92,9 @@ More complex UI sections:
 
 To add a new species card, follow these steps:
 
----
-
 ### 1. Go to the file
 
 `src/components/templates/species/index.tsx`
-
----
 
 ### 2. Update `listCards`
 
@@ -152,8 +140,6 @@ Each object must include:
 
 To create a new species page, follow these steps:
 
----
-
 ### 1. Create the page file
 
 Go to:
@@ -164,8 +150,6 @@ Create a new file using the species name.
 
 > ⚠️ The file name **must match** the `link` used in the species card (explained above).
 
----
-
 ### 2. Use an existing file as template
 
 You can copy an existing example, such as:
@@ -174,15 +158,11 @@ You can copy an existing example, such as:
 
 Rename it according to your new species.
 
----
-
 ### 3. Update the component content
 
 #### ✅ Update the name
 
 Replace all occurrences of `Ruminant` with your new species name.
-
----
 
 #### ✅ Update SEO
 
@@ -192,8 +172,6 @@ Inside the SEO configuration:
 - Update the `description`
 
 > ⚠️ The description should be meaningful and optimized for SEO.
-
----
 
 #### ✅ Update the Header
 
@@ -229,6 +207,229 @@ Example:
 }
 ```
 
+---
+
+## ➕ Add a New Product Category Card
+
+If you want to add a new product category `card`, follow these steps:
+
+### 1. Go to the file
+
+`src/components/templates/products/index.tsx`
+
+### 2. Update `listCards`
+
+Inside the `listCards` array, add a new object in the position where you want the card to appear.
+
+#### Example:
+
+```ts
+{
+  title: "Accelerator Solutions",
+  id: "accelerator-solutions",
+  link: "/products/categories/accelerator-solutions",
+  bannerUrl: "/images/banners/products/condiments.webp",
+}
+```
+
+### 3. Field definitions
+
+Each object must include:
+
+- **`title`**
+  Name of the category (displayed on the card)
+  Example: `"Accelerator Solutions"`
+
+- **`id`**
+  Unique identifier for the category
+  - Use lowercase
+  - If multiple words, separate them with `-`
+  Example: `accelerator-solutions`
+
+- **`link`**
+  Route where the card will navigate when clicked
+  Example: `/products/categories/accelerator-solutions`
+
+- **`bannerUrl`**
+  Image displayed on the card
+  Must be located in: `/images/banners/products/`
+  Example: `/images/banners/products/condiments.webp`
+
+---
+
+## ➕ Add a New Product Category Page (`/products/categories/[name]`)
+
+To create a new product category page, follow these steps:
+
+### 1. Create the page file
+
+Go to:
+
+`src/pages/products/categories/`
+
+Create a new file using the category name.
+
+> ⚠️ The file name must match the `link` used in the category card.
+
+### 2. Use an existing file as template
+
+You can copy an existing example, such as:
+
+`accelerator-solutions.tsx`
+
+Paste it and rename it according to your new category.
+
+### 3. Update SEO and Header
+
+#### ✅ Update SEO
+
+- Update the `title`
+- Update the `description`
+
+> ⚠️ Make sure the description is clear and SEO-friendly.
+
+#### ✅ Update the Header
+
+```jsx
+<Header
+  banner="/images/banners/products/test.webp"
+  title="Test"
+/>
+```
+
+Modify:
+
+banner → Correct image path
+title → Category name
+
+📌 Images must be located in:
+/images/banners/products/
+
+📌 Use .webp format (lighter than .png)
+
+### 4. Update `CategoriesOption` data
+
+Update the data according to the new category.
+
+Each object must include:
+
+```ts
+{
+  imgForTitle: "/images/products/logos2/endopower.webp",
+  link: "/products/endopower",
+  id: "3",
+  description:
+    "Endo-Power is a powerful digestion accelerator. It contains optimal enzymes for corn-soybean meal based diet, targeting NSPs for accelerated hydrolyzation.",
+}
+```
+---
+
+## ➕ Add a New Product Page (`/products/[name]`)
+
+To create a new product page, follow these steps:
+
+### 1. Create the page file
+
+Go to:
+
+`src/pages/products/`
+
+Create a new file using the product name.
+
+#### Example:
+
+`lipidol.tsx`
+
+### 2. Use an existing file as template
+
+You can copy an existing example, such as:
+
+`lipidol.tsx`
+
+Paste it and rename it according to your new product.
+
+### 3. Update SEO and Header
+
+#### ✅ Update SEO
+
+- Update the `title`
+- Update the `description`
+
+> ⚠️ Make sure the description is clear and SEO-friendly.
+
+#### ✅ Update the Header
+
+```jsx
+<Header
+  banner="/images/banners/products/test.webp"
+  title="Test"
+/>
+```
+
+Modify:
+
+banner → Correct image path
+title → Product name
+
+📌 Images must be located in:
+/images/banners/products/
+
+📌 Use .webp format (lighter than .png)
+
+### 4. Update `ProductOptions` data
+
+Update the data according to the new product.
+
+#### Example:
+
+```ts
+{
+  subTitle: "THE FIRST ABSORPTION ACCELERATOR",
+  imgForTitle: "/images/products/logos/lipidol-logo.webp",
+  linkVideo:
+    "https://www.youtube.com/embed/YiGlBKvPKpM?si=l0Dz_EaiKbG-TT0b",
+  content: [
+    {
+      id: "3",
+      title:
+        "Lipidol<sup class='size-14'>®</sup> : a powerful combination of four functional LPLs",
+      description:
+        "Lipidol is composed of four different functional lysophospholipids including lysophosphatidylcholine (LPC), lysophosphatidylionsitol (LPI), lysophosphatidylethanolamine (LPE), and lysophosphatidic acid (LPA), as well as hydrolyzed soya lecithin and calcium silicate as its carriers.",
+    },
+  ],
+}
+```
+
+### 🧩 Field definitions
+
+- **`subTitle`**
+ Subtitle displayed on the page
+
+- **`imgForTitle`**
+  Product logo
+  Must be located in: `/images/products/logos/`
+
+- **`linkVideo`** *(optional)*
+  Embedded YouTube video link
+  - Go to YouTube → Share → Embed
+  - Copy the `src` link from the iframe.
+
+- **`content`**
+  Array of sections:
+  - **`title`** → Supports HTML tags
+  - **`description`** → Supports HTML content
+
+#### Example with HTML:
+
+```ts
+"Lipidol<sup class='size-14'>®</sup>"
+```
+or
+
+```ts
+"<sup class='size-14'>®</sup>"
+```
+---
 ## ✅ Notes
 
 - Follow atomic design principles when adding new components.
