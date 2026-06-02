@@ -16,7 +16,7 @@ const FunctionalFeedAdditives = () => {
         title="Functional Feed Additives"
         data={[
           {
-            imgForTitle: "/images/products/logos2/gromega.webp",
+            imgForTitle: "/images/products/logos2/gromega.png",
             link: "/products/gromega",
             id: "1",
             description: "gromega",
@@ -28,7 +28,7 @@ const FunctionalFeedAdditives = () => {
             description: "enncinate",
           },
           {
-            imgForTitle: "/images/products/logos2/mycoSecure.webp",
+            imgForTitle: "/images/products/logos2/mycosecure.png",
             link: "/products/mycosecure",
             id: "3",
             description: "MycoSecure",

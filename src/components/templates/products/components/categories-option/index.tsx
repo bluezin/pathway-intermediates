@@ -1,5 +1,5 @@
 import Card from "@/components/molecules/card";
-import { CategoryData } from "@/components/types";
+import { Specie } from "@/components/types";
 import styles from "./index.module.css";
 
 const CategoriesOption = ({
@@ -7,7 +7,7 @@ const CategoriesOption = ({
   data,
 }: {
   title: string;
-  data: CategoryData[];
+  data: Specie[];
 }) => {
   return (
     <section className={styles.container}>

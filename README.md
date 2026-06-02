@@ -37,8 +37,6 @@ Basic, reusable components that do not depend on others:
 
 > ⚠️ Note: You can add more components here as long as they don’t depend on other components.
 
----
-
 ### 🔸 `src/molecules/`
 
 Components composed of atoms:
@@ -47,8 +45,6 @@ Components composed of atoms:
   Used in:
   - Species (`SpeciesOption`)
   - Products (`CategoriesOption`)
-
----
 
 ### 🔶 `src/organisms/`
 
