@@ -1,13 +1,15 @@
 .container {
-  padding-top: 140px;
+  padding: 140px 16px 0px;
   width: 1100px;
   margin: auto auto 130px;
+  box-sizing: border-box;
 }
 
 .container h2 {
   text-align: center;
   font-family: "GillSansLight Bold", sans-serif;
   font-size: 35px;
+  padding-bottom: 60px;
 }
 
 .name {
@@ -15,41 +17,83 @@
   margin-top: 20px;
 }
 
+.job__title {
+  font-size: 14px;
+}
+
 .divider {
-  width: 45px;
+  width: 30%;
   height: 2px;
   background-color: #006a8f;;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .content {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   gap: 40px;
-  justify-content: center;
-  margin-top: 55px;
 }
 
 .content__item {
-  width: 248px;
+  width: 238px;
   border-radius: 20px;
 }
 
 .content__item__containerImg img {
   width: 100% !important;
   height: 310px !important;
-  border-radius: 20px 20px 0px 0px;
 }
 
-@media screen and (max-width: 1105px) {
+.place {
+  color: #333;
+  font-size: 28px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.place span {
+  height: 1px;
+  background-color: #888;
+  width: 150px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1290px) {
+  .content {
+    grid-template-columns: auto auto auto;
+  }
+
   .container {
-    width: 90%;
+    width: 800px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
   .content {
     grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .place {
+    text-align: center;
+  }
+
+  .place span {
+    display: block;
+    margin: 20px auto 20px;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .divider {
+    margin: 15px auto;
   }
 }
 
@@ -60,17 +104,12 @@
 
   .container h2 {
     font-size: 25px;
+    padding-bottom: 0px;
   }
 
   .content {
     margin-top: 30px;
-    text-align: center;
     gap: 40px 20px;
-  }
-
-  .divider {
-    margin: 10px auto;
-    width: 60px;
   }
 
   .name {
@@ -78,7 +117,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
   .content__item__containerImg img {
     width: 160px !important;
     height: 200px !important;
@@ -89,10 +128,10 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .content__item__containerImg img {
-    width: 100% !important;
-    height: 280px !important;
+    width: auto !important;
+    height: 270px !important;
   }
 
   .content__item {
