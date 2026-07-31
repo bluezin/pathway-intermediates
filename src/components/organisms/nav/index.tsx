@@ -40,7 +40,7 @@ const Nav = () => {
       >
         <Link href="/home" className={styles.link__logo}>
           <Image
-            src="/images/pwi-logo-25.png"
+            src="/images/pwi-logo-25.webp"
             alt="Pathway logo"
             width={262}
             height={57}

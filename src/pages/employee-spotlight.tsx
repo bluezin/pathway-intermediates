@@ -11,7 +11,7 @@ const EmployeeSpotlight = () => {
       />
 
       <Header
-        banner="/images/banners/banner-employee.png"
+        banner="/images/banners/banner-employee.webp"
         title="Employee Spotlight"
       />
       <EmployeeTemplate />

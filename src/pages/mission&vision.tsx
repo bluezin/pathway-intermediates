@@ -11,7 +11,7 @@ const MissionAndVision = () => {
       />
 
       <Header
-        banner="/images/banners/banner-mission.png"
+        banner="/images/banners/banner-mission.webp"
         title="Mision & Vision"
       />
 

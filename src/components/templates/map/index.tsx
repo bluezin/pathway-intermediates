@@ -1,5 +1,5 @@
-import Image from "next/image";
 import styles from "./index.module.css";
+import { locationSvg } from "../../../../public/images/svg";
 
 const MapTemplate = () => {
   return (
@@ -8,12 +8,7 @@ const MapTemplate = () => {
       <section className={styles.container}>
         <h2>Location</h2>
         <p className={styles.informative__text}>
-          <Image
-            src="/images/location.webp"
-            alt="Location pin"
-            width={50}
-            height={50}
-          />
+          {locationSvg()}
           Office Address: 3701 Algonquin Rd, Suite 1000, Rolling Meadows, IL
           60008
         </p>
