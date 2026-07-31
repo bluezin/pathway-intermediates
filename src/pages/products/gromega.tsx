@@ -16,8 +16,7 @@ const Gromega = () => {
         item={{
           subTitle: "subtitle",
           imgForTitle: "/images/products/logos/gromega.webp",
-          linkVideo:
-            "https://www.youtube.com/embed/iiqjt4I9jbc?si=x6VhnjsEDTt9ezij",
+          linkVideo: "link",
           content: [
             {
               id: "1",
