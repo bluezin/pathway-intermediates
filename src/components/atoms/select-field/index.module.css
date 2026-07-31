@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 .container__options {
   background-color: var(--color-white);
   display: flex;

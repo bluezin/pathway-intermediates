@@ -43,7 +43,7 @@ const SelectField = ({
   }, []);
 
   return (
-    <div style={{ position: "relative" }}>
+    <div className={styles.container}>
       <p className={styles.label}>{label}</p>
 
       <div className={styles.container__input}>

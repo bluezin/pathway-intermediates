@@ -19,6 +19,11 @@
   font-weight: 400;
 }
 
+.label__text {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
 .messageError {
   color: var(--color-white);
   display: block;

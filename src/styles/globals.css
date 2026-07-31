@@ -22,6 +22,7 @@
   font-family: "GillSansLight Regular";
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: url('/fonts/gill-sans-light-regular.otf') format('opentype');
 }
 
@@ -29,6 +30,7 @@
   font-family: "GillSansLight Bold";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('/fonts/gill-sans-bold.otf') format('opentype');
 }
 
@@ -36,6 +38,7 @@
   font-family: "GillSansLight Medium";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('/fonts/gill-sans-medium.otf') format('opentype');
 }
 
@@ -43,7 +46,8 @@
   font-family: "GillSansLight SemiBold";
   font-style: normal;
   font-weight: 500;
-  src: url('/fonts/gill-sans-semi-bold.ttf') format('opentype');
+  font-display: swap;
+  src: url('/fonts/gill-sans-semi-bold.ttf') format('truetype');
 }
 
 body {

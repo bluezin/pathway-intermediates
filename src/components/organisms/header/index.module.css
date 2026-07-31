@@ -8,7 +8,7 @@
   height: 420px;
   box-sizing: content-box;
   position: relative;
-  background-position: cover;
+  background-size: cover;
 }
 
 .banner::before {

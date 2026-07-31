@@ -156,7 +156,7 @@ const Form = ({
               />
             </div>
 
-            <div style={{ textAlign: "center" }}>
+            <div className={styles.button__container}>
               <button
                 className={`button-secondary ${styles.button}`}
                 onClick={() => handleSubmit()}

@@ -29,7 +29,7 @@ const Nav = () => {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.addEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -47,7 +47,13 @@ const Nav = () => {
           />
         </Link>
 
-        <button className={`${styles.open__menu}`} onClick={handleOpenMenu}>
+        <button
+          className={styles.open__menu}
+          onClick={handleOpenMenu}
+          aria-label={openMenu ? "Close menu" : "Open menu"}
+          aria-expanded={openMenu}
+          aria-controls="menu"
+        >
           {!openMenu ? navMenu() : navClose()}
         </button>
       </div>

@@ -17,6 +17,7 @@ const AboutTemplate = () => {
             height="315"
             src="https://www.youtube.com/embed/nzspfq3bAAE?si=XhmyDumWWPVKqe_q"
             title="YouTube video player"
+            loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
