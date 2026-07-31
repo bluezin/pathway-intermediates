@@ -1,4 +1,5 @@
 import Nav from "@/components/organisms/nav";
+import { BIOMATRIX_URL, PATHWAY_URL } from "@/constants";
 import styles from "./index.module.css";
 import Image from "next/image";
 
@@ -36,7 +37,7 @@ const Header = ({
             <button
               className={`button-primary ${styles.button}`}
               onClick={() => {
-                window.open("https://www.pathway-intermediates.com/", "_blank");
+                window.open(PATHWAY_URL, "_blank");
               }}
             >
               Go to Pathway
@@ -45,7 +46,7 @@ const Header = ({
             <button
               className={`button-secondary ${styles.button}`}
               onClick={() => {
-                window.open("https://www.biomatrixintl.com/", "_blank");
+                window.open(BIOMATRIX_URL, "_blank");
               }}
             >
               Go to BioMatrix

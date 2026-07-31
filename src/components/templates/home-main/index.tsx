@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BIOMATRIX_URL } from "@/constants";
 import styles from "./index.module.css";
 
 const HomeMainTemplate = () => {
@@ -7,7 +8,7 @@ const HomeMainTemplate = () => {
   };
 
   const handleOpenBioMatrix = () => {
-    window.open("https://www.biomatrixintl.com/", "_blank");
+    window.open(BIOMATRIX_URL, "_blank");
   };
 
   return (

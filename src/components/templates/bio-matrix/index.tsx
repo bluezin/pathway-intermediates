@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BIOMATRIX_URL, PATHWAY_URL } from "@/constants";
 import styles from "./index.module.css";
 import Link from "next/link";
 
@@ -18,7 +19,7 @@ const BioMatrixTemplate = () => {
 
       <div className={styles.container__cards}>
         <Link
-          href={"https://www.pathway-intermediates.com/"}
+          href={PATHWAY_URL}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.card__pathway}
@@ -38,7 +39,7 @@ const BioMatrixTemplate = () => {
         </Link>
 
         <Link
-          href={"https://www.biomatrixintl.com/"}
+          href={BIOMATRIX_URL}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.card__biometrix}
