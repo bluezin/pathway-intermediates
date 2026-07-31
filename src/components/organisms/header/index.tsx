@@ -60,7 +60,7 @@ const Header = ({
             className={styles.hero__no__main__title}
             dangerouslySetInnerHTML={{ __html: title }}
           />
-          <Image src="/sub_point.png" alt="sub_point" width={25} height={199} />
+          <Image src="/sub_point.png" alt="sub point" width={25} height={199} />
         </div>
       )}
     </section>

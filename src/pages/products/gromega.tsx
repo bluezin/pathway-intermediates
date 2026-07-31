@@ -13,10 +13,11 @@ const Gromega = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Gromega"
         item={{
           subTitle: "subtitle",
           imgForTitle: "/images/products/logos/gromega.webp",
-          linkVideo: "link",
+          linkVideo: "",
           content: [
             {
               id: "1",

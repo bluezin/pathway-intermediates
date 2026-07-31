@@ -9,9 +9,11 @@ interface Content {
   id: string;
 }
 
-const ProductsOption = ({
+const ProductOptions = ({
   item,
+  titleOfProduct,
 }: {
+  titleOfProduct: string;
   item: {
     subTitle: string;
     imgForTitle: string;
@@ -26,7 +28,7 @@ const ProductsOption = ({
           width={284}
           height={100}
           src={item.imgForTitle}
-          alt="product-option-imgForTitle"
+          alt={titleOfProduct}
         />
         <p>{item.subTitle}</p>
       </div>
@@ -88,4 +90,4 @@ const ProductsOption = ({
   );
 };
 
-export default ProductsOption;
+export default ProductOptions;

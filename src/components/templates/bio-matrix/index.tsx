@@ -25,7 +25,7 @@ const BioMatrixTemplate = () => {
         >
           <Image
             src="/images/pathway-logo.webp"
-            alt="biomatirx-logo"
+            alt="Pathway logo"
             fill
             className={styles.card__pathway__logo}
           />
@@ -45,7 +45,7 @@ const BioMatrixTemplate = () => {
         >
           <Image
             src="/images/biomatrix-logo.svg"
-            alt="biomatirx-logo"
+            alt="BioMatrix logo"
             width={30}
             height={50}
             className={styles.card__biomatrix__logo}

@@ -32,7 +32,7 @@ const Notices = () => {
     return (
       <div key={item.id}>
         <div className={styles.content__container__img}>
-          <Image width={100} height={100} src={item.img} alt="lee" />
+          <Image width={100} height={100} src={item.img} alt={item.description} />
         </div>
 
         <p className={styles.description}>{item.description}</p>

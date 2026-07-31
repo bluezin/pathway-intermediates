@@ -16,6 +16,7 @@ const Genikan = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Genikan"
         item={{
           subTitle: "HIGH QUALITY YEAST CULTURE FOR GASTROINTESTINAL HEALTH",
           imgForTitle: "/images/products/logos/genikan-logo.webp",

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container__image}>
-        <Image src={"/images/footer-logo.webp"} alt="logo" fill />
+        <Image src={"/images/footer-logo.webp"} alt="Pathway Intermediates logo" fill />
       </div>
 
       <div className={styles.content}>

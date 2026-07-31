@@ -2,8 +2,12 @@ import Image from "next/image";
 import styles from "./index.module.css";
 
 const HomeMainTemplate = () => {
-  const handleOpen = () => {
-    window.open(`${window.location.origin}/home`, "blank");
+  const handleOpenPathway = () => {
+    window.open(`${window.location.origin}/home`, "_blank");
+  };
+
+  const handleOpenBioMatrix = () => {
+    window.open("https://www.biomatrixintl.com/", "_blank");
   };
 
   return (
@@ -11,7 +15,7 @@ const HomeMainTemplate = () => {
       <section
         className={styles.content}
         onClick={() => {
-          handleOpen();
+          handleOpenPathway();
         }}
       >
         <div className={`${styles.img__first} ${styles.img}`} />
@@ -20,7 +24,7 @@ const HomeMainTemplate = () => {
           <div className={styles.logo__wrap}>
             <Image
               src={"/images/pathway-logo-2.webp"}
-              alt="logo-pathway"
+              alt="Pathway logo"
               width={230}
               height={100}
               className={styles.logo__pathway}
@@ -30,7 +34,7 @@ const HomeMainTemplate = () => {
           <button
             className={styles.button__pathway}
             onClick={() => {
-              handleOpen();
+              handleOpenPathway();
             }}
           >
             ENTER SITE
@@ -44,7 +48,7 @@ const HomeMainTemplate = () => {
 
       <section
         onClick={() => {
-          window.open("https://www.biomatrixintl.com/", "blank");
+          handleOpenBioMatrix();
         }}
         className={styles.content}
       >
@@ -54,7 +58,7 @@ const HomeMainTemplate = () => {
           <div className={styles.logo__wrap}>
             <Image
               src={"/images/biomatrix-logo.svg"}
-              alt="biomatrix-logo"
+              alt="BioMatrix logo"
               width={260}
               className={styles.logo__biomatrix}
               height={100}
@@ -64,7 +68,7 @@ const HomeMainTemplate = () => {
           <button
             className={styles.button__biomatrix}
             onClick={() => {
-              window.open("https://www.biomatrixintl.com/", "blank");
+              handleOpenBioMatrix();
             }}
           >
             ENTER SITE

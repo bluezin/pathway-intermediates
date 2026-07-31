@@ -16,6 +16,7 @@ const Endopower = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Endo-Power"
         item={{
           subTitle: "POWERFUL DIGESTION ACCELERATOR",
           imgForTitle: "/images/products/logos/endopower-logo.webp",

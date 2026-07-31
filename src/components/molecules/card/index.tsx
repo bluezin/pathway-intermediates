@@ -8,7 +8,7 @@ const Card = ({ item }: { item: Specie }) => {
     <Link href={item.link} className={styles.card}>
       <img
         src={item.imgForTitle}
-        alt={"imgForTitle"}
+        alt="Product logo"
         className={styles.imgForTitle}
       />
 

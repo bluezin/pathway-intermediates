@@ -10,7 +10,7 @@ const MapTemplate = () => {
         <p className={styles.informative__text}>
           <Image
             src="/images/location.webp"
-            alt="location"
+            alt="Location pin"
             width={50}
             height={50}
           />

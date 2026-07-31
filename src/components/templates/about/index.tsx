@@ -137,7 +137,7 @@ const AboutTemplate = () => {
           <div className={styles.members__container__img}>
             <Image
               src="/images/all-members.webp"
-              alt="all-members"
+              alt="Pathway Intermediates team members"
               width={300}
               height={300}
               className={styles.all__members}

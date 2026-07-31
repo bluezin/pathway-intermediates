@@ -16,6 +16,7 @@ const Fermkito = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Fermkito"
         item={{
           subTitle: "THE NATURAL FERMENTED CHITOSAN AND COS",
           imgForTitle: "/images/products/logos/fermkito-logo.webp",

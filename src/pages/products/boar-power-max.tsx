@@ -16,6 +16,7 @@ const BoarPowerMax = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Boar Power Max"
         item={{
           subTitle: "NUTRITIONAL BALANCED SUPPLEMENT FOR BOAR PERFORMANCE",
           imgForTitle: "/images/products/logos/boar-power-max-logo.webp",

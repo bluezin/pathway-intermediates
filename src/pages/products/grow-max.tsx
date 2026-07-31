@@ -16,6 +16,7 @@ const GrowMax = () => {
       />
 
       <ProductOptions
+        titleOfProduct="GrowMax"
         item={{
           subTitle: "THE ORGANIC CHROMIUM FOR ANIMAL PERFORMANCE",
           imgForTitle: "/images/products/logos/grow-max-logo.webp",

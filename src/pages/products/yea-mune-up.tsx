@@ -16,6 +16,7 @@ const YeaMuneUp = () => {
       />
 
       <ProductOptions
+        titleOfProduct="YeaMune-UP"
         item={{
           subTitle: "IMMUNE ACCELERATOR",
           imgForTitle: "/images/products/logos/yea-mune-yup.webp",

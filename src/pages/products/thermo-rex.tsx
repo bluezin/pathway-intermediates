@@ -16,6 +16,7 @@ const ThermoRex = () => {
       />
 
       <ProductOptions
+        titleOfProduct="ThermoRex"
         item={{
           subTitle: "All-in-One Anti-Stress Solution",
           imgForTitle: "/images/products/logos/thermo-rex-logo.webp",

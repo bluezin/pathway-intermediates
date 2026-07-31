@@ -16,6 +16,7 @@ const Endophos = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Endo-Phos"
         item={{
           subTitle: "THE HIGHLY EFFECTIVE PHYTASE",
           imgForTitle: "/images/products/logos/endophos-logo.webp",

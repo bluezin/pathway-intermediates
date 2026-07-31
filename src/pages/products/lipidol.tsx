@@ -16,6 +16,7 @@ const Lipidol = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Lipidol"
         item={{
           subTitle: "THE FIRST ABSORPTION ACCELERATOR",
           imgForTitle: "/images/products/logos/lipidol-logo.webp",

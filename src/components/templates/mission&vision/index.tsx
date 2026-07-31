@@ -32,7 +32,7 @@ const MissionAndVisionTemplate = () => {
                   width={400}
                   height={400}
                   src={"/images/mission/polygon1.webp"}
-                  alt="polygon-mission"
+                  alt="polygon mission"
                 />
               </div>
 
@@ -81,7 +81,7 @@ const MissionAndVisionTemplate = () => {
           <div className={styles.divide__content}>
             <Image
               src="/images/mission/laboratory.webp"
-              alt="laboratory"
+              alt="People who work in a laboratory"
               width={500}
               height={600}
               className={styles.laboratory}
@@ -90,7 +90,7 @@ const MissionAndVisionTemplate = () => {
               <div className={styles.polygon}>
                 <Image
                   src="/images/mission/polygon2.webp"
-                  alt="polygon2"
+                  alt="polygon 2"
                   width={400}
                   height={400}
                 />
@@ -120,7 +120,7 @@ const MissionAndVisionTemplate = () => {
             <div>
               <div className={styles.polygon}>
                 <Image
-                  alt="polygon3"
+                  alt="polygon 3"
                   height={400}
                   width={400}
                   src={"/images/mission/polygon3.webp"}
@@ -136,7 +136,7 @@ const MissionAndVisionTemplate = () => {
             </div>
 
             <Image
-              alt="laboratory-equipment"
+              alt="Laboratory equipment"
               height={540}
               width={550}
               src={"/images/mission/laboratory-equipment.webp"}

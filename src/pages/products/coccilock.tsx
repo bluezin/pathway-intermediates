@@ -16,6 +16,7 @@ const Coccilock = () => {
       />
 
       <ProductOptions
+        titleOfProduct="CocciLock"
         item={{
           subTitle:
             "ECO-FRIENDLY PRODUCT FOR ENSURING CONSTANT GROWTH PERFORMANCE",

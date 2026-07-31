@@ -16,6 +16,7 @@ const QLife = () => {
       />
 
       <ProductOptions
+        titleOfProduct="Q-Life"
         item={{
           subTitle: "NATURAL ALTERNATIVE TO ANTICOCCIDIALS",
           imgForTitle: "/images/products/logos/q-life-logo.webp",

@@ -16,6 +16,7 @@ const ProbeBac = () => {
       />
 
       <ProductOptions
+        titleOfProduct="ProBe-Bac"
         item={{
           subTitle: "New Preventative Approach for Bacterial Infection",
           imgForTitle: "/images/products/logos/probe-bac-logo.webp",
