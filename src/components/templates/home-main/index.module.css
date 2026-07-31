@@ -54,7 +54,7 @@
 }
 
 .card button {
-  color: white;
+  color: var(--color-white);
   font-family: "GillSansLight SemiBold", sans-serif;
   border-radius: 999px;
   font-size: 0.875rem;
@@ -133,7 +133,7 @@
   border-radius: 50%;
   width: 58px;
   height: 58px;
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: 0 4px 20px rgba(0,0,0,0.20);
   display: flex;
   justify-content: center;

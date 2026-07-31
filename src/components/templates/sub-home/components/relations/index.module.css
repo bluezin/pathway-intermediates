@@ -14,7 +14,7 @@
   width: 100%;
   padding: 0 10px;
   box-sizing: content-box;
-  color: #fff;
+  color: var(--color-white);
   position: relative;
 }
 

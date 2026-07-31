@@ -9,7 +9,7 @@
   padding: 16px;
   margin: 0;
   display: inline-block;
-  color: #fff;
+  color: var(--color-white);
   cursor: pointer;
 }
 
@@ -28,13 +28,13 @@
 
 .dropdown__options a {
   display: block;
-  color: #333;
+  color: var(--color-text-dark);
   font-size: 16px;
   text-align: left;
   padding: 15px 15px;
   margin-bottom: 1px;
   transition: all 0.5s;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .dropdown__options a:hover {
@@ -115,7 +115,7 @@
   .menu {
     display: none;
     position: fixed;
-    background-color: black;
+    background-color: var(--color-black);
     bottom: 0;
     top: 0;
     right: 0;
@@ -150,7 +150,7 @@
 
   .dropdown__options a:hover {
     background-color: transparent;
-    color: #fff;
+    color: var(--color-white);
   }
 
   .dropdown__options__active {

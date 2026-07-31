@@ -21,13 +21,13 @@
   align-items: center;
   gap: 10px;
   cursor: pointer;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .divider {
   width: 200px;
   height: 1px;
-  background-color: #fff;
+  background-color: var(--color-white);
   margin-bottom: 40px;
 }
 

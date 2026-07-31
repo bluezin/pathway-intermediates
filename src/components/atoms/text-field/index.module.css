@@ -1,13 +1,13 @@
 .input:focus {
-  border: 1px solid #fff;
+  border: 1px solid var(--color-white);
 }
 
 .input {
   height: 40px;
   width: 100%;
-  border: 1px solid rgb(92, 160, 183);
-  background-color: rgb(33, 125, 157);
-  color: #fff;
+  border: 1px solid var(--color-primary-border);
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
   padding: 4px 8px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -20,7 +20,7 @@
 }
 
 .messageError {
-  color: #fff;
+  color: var(--color-white);
   display: block;
   margin: 8px 0px 0px 6px;
 }

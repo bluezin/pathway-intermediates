@@ -1,11 +1,11 @@
 .container {
-  background-color: #006a8f;
+  background-color: var(--color-primary);
 }
 
 .sub__container {
   margin: auto;
   padding: 41px 0px 71px;
-  color: #fff;
+  color: var(--color-white);
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
@@ -47,7 +47,7 @@
 }
 
 .informative__text a {
-  color: white;
+  color: var(--color-white);
   text-decoration: underline;
   padding-left: 7px;
 }

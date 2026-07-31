@@ -40,7 +40,7 @@
 
 .sub__nav__for__open__menu {
   padding-top: 30px !important;
-  background-color: #000;
+  background-color: var(--color-black);
   opacity: 0.95;
 }
 
@@ -65,7 +65,7 @@
   }
 
   .sub__nav__scroll {
-    background-color: #000;
+    background-color: var(--color-black);
     opacity: 0.9;
     padding: 10px 30px;
   }

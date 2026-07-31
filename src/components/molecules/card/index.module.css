@@ -18,13 +18,13 @@
 }
 
 .description {
-  color: #ccc;
+  color: var(--color-border-soft);
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
 .more {
-  color: white;
+  color: var(--color-white);
 }
 
 @media screen and (max-width: 970px) {

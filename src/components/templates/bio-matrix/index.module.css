@@ -1,13 +1,13 @@
 .divider {
   height: 2px;
   width: 15%;
-  background-color: #006a8f;
+  background-color: var(--color-primary);
   margin: auto;
 }
 
 .title {
   font-size: 50px;
-  color: #006a8f;
+  color: var(--color-primary);
   font-family: "GillSansLight Bold", sans-serif;
   text-align: center;
 }
@@ -53,7 +53,7 @@
 
 .card__biometrix__description {
   font-size: 17px;
-  color: black;
+  color: var(--color-black);
 }
 
 .card__biometrix__title {
@@ -93,20 +93,20 @@
 }
 
 .card__pathway__description {
-  color: #fff;
+  color: var(--color-white);
   font-size: 17px;
 }
 
 .card__pathway__title {
   font-size: 25px;
-  color: #FFFFFF;
+  color: var(--color-white);
   font-family: "GillSansLight SemiBold", sans-serif;
 }
 
 .card__pathway__button {
   padding: 10px 30px;
   background-color: transparent;
-  color: #fff;
+  color: var(--color-white);
   border: none;
   border-radius: 10px;
   font-size: 20px;

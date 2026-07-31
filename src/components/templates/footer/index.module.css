@@ -1,5 +1,5 @@
 .footer {
-  background-color: #fff;
+  background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
@@ -18,7 +18,7 @@
 }
 
 .content {
-  color: #888;
+  color: var(--color-text-muted);
   font-size: 14px;
   text-align: right;
   font-weight: 300;

@@ -1,5 +1,5 @@
 .title {
-  color: #006a8f;
+  color: var(--color-primary);
   font-size: 35px;
   font-family: "GillSansLight Bold", sans-serif;
   font-weight: 500 !important;
@@ -7,7 +7,7 @@
 
 .divider {
   content: "";
-  background-color: #006a8f;
+  background-color: var(--color-primary);
   width: 200px;
   height: 1px;
   margin: 20px 0px 20px;
@@ -29,14 +29,14 @@
 }
 
 .sub__title {
-  color: #006a8f;
+  color: var(--color-primary);
   font-size: 28px;
   font-family: "GillSansLight Bold", sans-serif;
   margin: 0px 0px 10px;
 }
 
 .sub__text {
-  color: #171717;
+  color: var(--foreground);
   font-size: 22px;
   line-height: 24px;
 }
