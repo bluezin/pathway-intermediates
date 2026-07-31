@@ -1,9 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Header from "@/components/organisms/header";
+import { BIOMATRIX_URL, PATHWAY_URL } from "@/constants";
 
 const getHeroButtons = () =>
-  screen.getAllByRole("button").filter((btn) => !btn.hasAttribute("aria-label"));
+  screen
+    .getAllByRole("button")
+    .filter((btn) => !btn.hasAttribute("aria-label"));
 
 describe("Header", () => {
   beforeEach(() => {
@@ -29,15 +32,9 @@ describe("Header", () => {
     const buttons = getHeroButtons();
 
     await user.click(buttons[0]);
-    expect(window.open).toHaveBeenCalledWith(
-      "https://www.pathway-intermediates.com/",
-      "_blank",
-    );
+    expect(window.open).toHaveBeenCalledWith(PATHWAY_URL, "_blank");
 
     await user.click(buttons[1]);
-    expect(window.open).toHaveBeenCalledWith(
-      "https://www.biomatrixintl.com/",
-      "_blank",
-    );
+    expect(window.open).toHaveBeenCalledWith(BIOMATRIX_URL, "_blank");
   });
 });

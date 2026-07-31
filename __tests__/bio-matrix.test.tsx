@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import BioMatrixTemplate from "@/components/templates/bio-matrix";
+import { BIOMATRIX_URL, PATHWAY_URL } from "@/constants";
 
 describe("BioMatrixTemplate", () => {
   it("renders one external link per site", () => {
@@ -9,8 +10,8 @@ describe("BioMatrixTemplate", () => {
       .getAllByRole("link")
       .map((link) => link.getAttribute("href"));
     expect(hrefs).toHaveLength(2);
-    expect(hrefs).toContain("https://www.pathway-intermediates.com/");
-    expect(hrefs).toContain("https://www.biomatrixintl.com/");
+    expect(hrefs).toContain(PATHWAY_URL);
+    expect(hrefs).toContain(BIOMATRIX_URL);
   });
 
   it("renders a logo image per card", () => {
