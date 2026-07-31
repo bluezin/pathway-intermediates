@@ -40,6 +40,8 @@
 
 .sub__nav__for__open__menu {
   padding-top: 30px !important;
+  background-color: #000;
+  opacity: 0.95;
 }
 
 @media screen and (max-width: 930px) {

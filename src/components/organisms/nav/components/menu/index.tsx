@@ -111,12 +111,12 @@ const Menu = ({
       ],
     },
     {
-      title: "Companion Animal",
+      title: "BioMatrix",
       useLinkMobile: true,
-      id: "companionAnimal",
+      id: "bioMatrix",
       options: [],
-      linkDesktop: "/companion-animal",
-      linkMobile: "/companion-animal",
+      linkDesktop: "/bio-matrix",
+      linkMobile: "/bio-matrix",
     },
     {
       title: "Contact Us",

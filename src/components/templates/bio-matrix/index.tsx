@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./index.module.css";
 import Link from "next/link";
 
-const CompanionAnimalTemplate = () => {
+const BioMatrixTemplate = () => {
   return (
     <section className={styles.container}>
       <h3 className={styles.title}>Start Your Experience</h3>
@@ -62,4 +62,4 @@ const CompanionAnimalTemplate = () => {
   );
 };
 
-export default CompanionAnimalTemplate;
+export default BioMatrixTemplate;

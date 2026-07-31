@@ -2,15 +2,16 @@ import Image from "next/image";
 import styles from "./index.module.css";
 
 const HomeMainTemplate = () => {
+  const handleOpen = () => {
+    window.open(`${window.location.origin}/home`, "blank");
+  };
+
   return (
     <section className={styles.container}>
       <section
         className={styles.content}
         onClick={() => {
-          window.open(
-            "https://pathway-intermediates-five.vercel.app/home",
-            "blank",
-          );
+          handleOpen();
         }}
       >
         <div className={`${styles.img__first} ${styles.img}`} />
@@ -29,10 +30,7 @@ const HomeMainTemplate = () => {
           <button
             className={styles.button__pathway}
             onClick={() => {
-              window.open(
-                "https://pathway-intermediates-five.vercel.app/home",
-                "blank",
-              );
+              handleOpen();
             }}
           >
             ENTER SITE
