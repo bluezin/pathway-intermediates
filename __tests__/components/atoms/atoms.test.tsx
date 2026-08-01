@@ -2,6 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import TextField from "@/components/atoms/text-field";
 import TextArea from "@/components/atoms/text-area";
 import SelectField from "@/components/atoms/select-field";
+import { getVisibleButtons } from "../../utils/test-utils";
 
 describe("TextField", () => {
   it("renders the label and the input", () => {
@@ -60,9 +61,7 @@ describe("SelectField", () => {
 
     fireEvent.click(screen.getByRole("textbox"));
 
-    const options = screen
-      .getAllByRole("button")
-      .filter((btn) => btn.textContent!.trim() !== "");
+    const options = getVisibleButtons();
     expect(options.length).toBeGreaterThan(1);
 
     fireEvent.click(options[1]);
@@ -71,6 +70,61 @@ describe("SelectField", () => {
     expect(screen.getByRole("textbox")).toHaveValue(
       options[1].textContent ?? "",
     );
+  });
+
+  it("opens the options when the arrow button is clicked", () => {
+    const { container } = render(
+      <SelectField id="subject" label="Subject" onChange={jest.fn()} />,
+    );
+    expect(
+      container.querySelector('[class*="container__options"]'),
+    ).toBeNull();
+
+    const arrow = container.querySelector(
+      '[class*="container__input"] button',
+    ) as Element;
+    fireEvent.click(arrow);
+
+    expect(
+      container.querySelector('[class*="container__options"]'),
+    ).toBeInTheDocument();
+  });
+
+  it("selects the Distributor, Recruit and Others options", () => {
+    const onChange = jest.fn();
+    render(<SelectField id="subject" label="Subject" onChange={onChange} />);
+
+    for (const value of ["Select Subject", "Products", "Distributor", "Recruit", "Others"]) {
+      fireEvent.click(screen.getByRole("textbox"));
+
+      fireEvent.click(
+        screen
+          .getAllByRole("button")
+          .find((btn) => btn.textContent!.trim() === value)!,
+      );
+    }
+
+    expect(onChange).toHaveBeenNthCalledWith(1, "Select Subject");
+    expect(onChange).toHaveBeenNthCalledWith(2, "Products");
+    expect(onChange).toHaveBeenNthCalledWith(3, "Distributor");
+    expect(onChange).toHaveBeenNthCalledWith(4, "Recruit");
+    expect(onChange).toHaveBeenNthCalledWith(5, "Others");
+  });
+
+  it("closes the options when clicking outside", () => {
+    const { container } = render(
+      <SelectField id="subject" label="Subject" onChange={jest.fn()} />,
+    );
+
+    fireEvent.click(screen.getByRole("textbox"));
+    expect(
+      container.querySelector('[class*="container__options"]'),
+    ).toBeInTheDocument();
+
+    fireEvent.mouseDown(document.body);
+    expect(
+      container.querySelector('[class*="container__options"]'),
+    ).toBeNull();
   });
 
   it("shows the error message only when provided", () => {

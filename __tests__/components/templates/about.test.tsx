@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import AboutTemplate from "@/components/templates/about";
+import { expectHrefsToContain } from "../../utils/test-utils";
 
 describe("AboutTemplate", () => {
   it("renders the main heading and the youtube video", () => {
@@ -12,10 +13,7 @@ describe("AboutTemplate", () => {
   it("links to the employee spotlight page and shows member images", () => {
     render(<AboutTemplate />);
 
-    const hrefs = screen
-      .getAllByRole("link")
-      .map((link) => link.getAttribute("href"));
-    expect(hrefs).toContain("/employee-spotlight");
+    expectHrefsToContain("/employee-spotlight");
 
     const imgs = screen.getAllByRole("img");
     expect(imgs.length).toBeGreaterThan(0);

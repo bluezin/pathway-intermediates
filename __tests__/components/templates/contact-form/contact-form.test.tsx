@@ -1,6 +1,7 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Form from "@/components/templates/contact-form/components/form";
+import { getVisibleButtons } from "../../../utils/test-utils";
 
 const getInput = (id: string) => document.getElementById(id) as HTMLInputElement;
 
@@ -12,9 +13,7 @@ const clickSend = async (user: ReturnType<typeof userEvent.setup>) => {
 const selectSubject = async (user: ReturnType<typeof userEvent.setup>) => {
   await user.click(getInput("subject"));
 
-  const options = screen
-    .getAllByRole("button")
-    .filter((btn) => btn.textContent!.trim() !== "");
+  const options = getVisibleButtons();
   await user.click(options[1]);
 };
 
@@ -91,5 +90,16 @@ describe("ContactForm", () => {
     const url = (window.open as jest.Mock).mock.calls[0][0] as string;
     expect(url).toContain("Juan");
     expect(url).toContain("Hello there");
+  });
+
+  it("closes the form when the close button is clicked", () => {
+    const setOpen = jest.fn();
+    const { container } = render(<Form open={true} setOpen={setOpen} />);
+
+    fireEvent.click(
+      container.querySelector('[class*="close__btn"]') as Element,
+    );
+
+    expect(setOpen).toHaveBeenCalledWith(false);
   });
 });
