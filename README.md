@@ -426,6 +426,60 @@ or
 "<sup class='size-14'>®</sup>"
 ```
 ---
+## 🧪 Tests
+
+### 🏗️ Structure
+
+The tests are located in `__tests__/` and mirror the source tree inside `src/`:
+
+```
+__tests__/
+├── components/          # Unit tests for components (atomic design)
+│   ├── atoms/           # e.g. seo, text-field, text-area, select-field
+│   ├── molecules/       # e.g. card
+│   ├── organisms/       # e.g. header, nav (menu, social)
+│   └── templates/       # e.g. base-page, home-main, products/*, species/*, sub-home/*, contact-form/*
+├── pages/               # Integration tests for pages
+│   ├── pages-app.test.tsx
+│   ├── pages-categories.test.tsx
+│   ├── pages-home.test.tsx
+│   ├── pages-info.test.tsx
+│   ├── pages-products.test.tsx
+│   └── pages-species.test.tsx
+└── utils/               # Shared test helpers (not run as tests)
+    └── test-utils.ts
+```
+### 🧰 Shared helpers (`__tests__/utils/test-utils.ts`)
+
+| Helper | Description |
+|---|---|
+| `SPECIES_LINKS` | Array with the routes of all species |
+| `CATEGORY_LINKS` | Array with the routes of all product categories |
+| `getLinkHrefs()` | All `<a>` hrefs currently rendered |
+| `getAnchorHrefs(container)` | All `<a>` hrefs within a specific container |
+| `expectHrefsToContain(...hrefs)` | Asserts the rendered links contain the given routes |
+| `expectAllHrefsToMatch(regex)` | Asserts every rendered link matches a pattern |
+| `expectHeroHeading(text)` | Asserts the `h1` heading text |
+| `getVisibleButtons()` | Buttons that have visible text |
+
+### ▶️ Running the tests
+
+| Command | Description |
+|---|---|
+| `npm test` | Run all tests once |
+| `npm test -- --coverage` | Run all tests and generate a coverage report |
+| `npm run test:watch` | Run tests in watch mode |
+
+### ➕ Adding a test for a new page
+
+1. Create the file in `__tests__/pages/` following the naming convention (e.g. `pages-products.test.tsx`).
+2. Import the page component from `@/pages/...`.
+3. Assert the hero heading with `expectHeroHeading("...")` and the product/species links with `expectHrefsToContain(...)` (for category pages use `screen.getAllByText(title)` + `getLinkHrefs()` instead, as in `pages-categories.test.tsx`).
+
+> ⚠️ Every new species, category, or product page should be registered in the corresponding test so broken routes are caught early.
+
+---
+
 ## ✅ Notes
 
 - Follow atomic design principles when adding new components.
