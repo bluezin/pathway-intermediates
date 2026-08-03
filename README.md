@@ -470,12 +470,6 @@ __tests__/
 | `npm test -- --coverage` | Run all tests and generate a coverage report |
 | `npm run test:watch` | Run tests in watch mode |
 
-### ➕ Adding a test for a new page
-
-1. Create the file in `__tests__/pages/` following the naming convention (e.g. `pages-products.test.tsx`).
-2. Import the page component from `@/pages/...`.
-3. Assert the hero heading with `expectHeroHeading("...")` and the product/species links with `expectHrefsToContain(...)` (for category pages use `screen.getAllByText(title)` + `getLinkHrefs()` instead, as in `pages-categories.test.tsx`).
-
 > ⚠️ Every new species, category, or product page should be registered in the corresponding test so broken routes are caught early.
 
 ---
